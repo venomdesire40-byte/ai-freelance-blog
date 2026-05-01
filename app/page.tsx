@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 const posts = [
   {
     id: 1,
+    slug: "5-best-ai-tools-for-freelance-writers-2026",
     title: "5 Best AI Tools for Freelance Writers in 2026",
     excerpt: "Honest reviews of the top AI writing tools that actually save time and make money for beginner freelancers.",
     category: "AI Reviews",
@@ -13,6 +14,7 @@ const posts = [
   },
   {
     id: 2,
+    slug: "claude-vs-chatgpt-real-test-freelancers",
     title: "Claude vs ChatGPT — Real Test for Freelancers",
     excerpt: "I used both for 30 days on real client work. Here's the honest truth about which one is worth your money.",
     category: "Comparisons",
@@ -22,6 +24,7 @@ const posts = [
   },
   {
     id: 3,
+    slug: "free-ai-tools-that-actually-work-2026",
     title: "Free AI Tools That Actually Work in 2026",
     excerpt: "No budget? No problem. These free AI tools will 3x your freelance productivity without spending a rupee.",
     category: "Productivity",
@@ -62,7 +65,7 @@ export default function Home() {
       }}>
         <div style={{
           fontFamily: "'Syne', sans-serif", fontSize: "1.2rem",
-          fontWeight: 700, color: "#00d4ff",
+          fontWeight: 800, color: "#00d4ff",
           textShadow: "0 0 20px rgba(0,212,255,0.5)",
         }}>
           AI<span style={{ color: "#00ff9f" }}>FREELANCE</span>
@@ -75,12 +78,8 @@ export default function Home() {
               letterSpacing: "1px", textTransform: "uppercase",
               transition: "color 0.2s",
             }}
-              onMouseEnter={e => {
-                (e.target as HTMLElement).style.color = "#00d4ff";
-              }}
-              onMouseLeave={e => {
-                (e.target as HTMLElement).style.color = "#4a7fa5";
-              }}
+              onMouseEnter={e => (e.target as HTMLElement).style.color = "#00d4ff"}
+              onMouseLeave={e => (e.target as HTMLElement).style.color = "#4a7fa5"}
             >{item}</a>
           ))}
         </div>
@@ -94,8 +93,7 @@ export default function Home() {
       }}>
         <div style={{
           display: "inline-flex", alignItems: "center", gap: 8,
-          padding: "4px 16px",
-          border: "1px solid rgba(0,212,255,0.3)",
+          padding: "4px 16px", border: "1px solid rgba(0,212,255,0.3)",
           borderRadius: "20px", marginBottom: "1.5rem",
           fontSize: "0.75rem", letterSpacing: "2px",
           color: "#00d4ff", textTransform: "uppercase",
@@ -112,9 +110,8 @@ export default function Home() {
 
         <h1 style={{
           fontFamily: "'Syne', sans-serif",
-          fontSize: "clamp(2rem, 5vw, 3.5rem)",
-          fontWeight: 800, lineHeight: 1.2,
-          marginBottom: "1.5rem",
+          fontSize: "clamp(1.6rem, 3.5vw, 2.5rem)",
+          fontWeight: 500, lineHeight: 1.2, marginBottom: "1.5rem",
         }}>
           Master{" "}
           <span style={{
@@ -148,8 +145,8 @@ export default function Home() {
               transition: "background 0.2s, box-shadow 0.2s",
             }}
               onMouseEnter={e => {
-                (e.currentTarget as HTMLElement).style.background = `rgba(0,212,255,0.08)`;
-                (e.currentTarget as HTMLElement).style.boxShadow = `0 0 16px rgba(0,212,255,0.2)`;
+                (e.currentTarget as HTMLElement).style.background = "rgba(0,212,255,0.08)";
+                (e.currentTarget as HTMLElement).style.boxShadow = "0 0 16px rgba(0,212,255,0.2)";
               }}
               onMouseLeave={e => {
                 (e.currentTarget as HTMLElement).style.background = "transparent";
@@ -186,50 +183,51 @@ export default function Home() {
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem" }}>
           {posts.map((post, i) => (
-            <article key={post.id} style={{
-              background: "rgba(6,13,20,0.8)",
-              border: "1px solid rgba(0,212,255,0.1)",
-              borderRadius: "4px", padding: "1.5rem",
-              opacity: visible ? 1 : 0,
-              transform: visible ? "translateY(0)" : "translateY(20px)",
-              transition: `opacity 0.6s ease ${0.4 + i * 0.15}s, transform 0.6s ease ${0.4 + i * 0.15}s, border-color 0.08s, box-shadow 0.08s`,
-              position: "relative", overflow: "hidden",
-            }}
-              onMouseEnter={e => {
-                const el = e.currentTarget as HTMLElement;
-                el.style.borderColor = post.color;
-                el.style.boxShadow = `0 0 25px ${post.color}33`;
+            <a key={post.id} href={`/blog/${post.slug}`} style={{ textDecoration: "none" }}>
+              <article style={{
+                background: "rgba(6,13,20,0.8)",
+                border: "1px solid rgba(0,212,255,0.1)",
+                borderRadius: "4px", padding: "1.5rem", height: "100%",
+                opacity: visible ? 1 : 0,
+                transform: visible ? "translateY(0)" : "translateY(20px)",
+                transition: `opacity 0.6s ease ${0.4 + i * 0.15}s, transform 0.6s ease ${0.4 + i * 0.15}s, border-color 0.08s, box-shadow 0.08s`,
+                position: "relative", overflow: "hidden",
               }}
-              onMouseLeave={e => {
-                const el = e.currentTarget as HTMLElement;
-                el.style.borderColor = "rgba(0,212,255,0.1)";
-                el.style.boxShadow = "none";
-              }}
-            >
-              <div style={{
-                display: "inline-block", padding: "3px 10px",
-                border: `1px solid ${post.color}44`,
-                borderRadius: "2px", marginBottom: "1rem",
-                fontSize: "0.7rem", letterSpacing: "1px",
-                color: post.color, textTransform: "uppercase",
-                fontFamily: "'Syne', sans-serif",
-              }}>{post.category}</div>
+                onMouseEnter={e => {
+                  const el = e.currentTarget as HTMLElement;
+                  el.style.borderColor = post.color;
+                  el.style.boxShadow = `0 0 25px ${post.color}33`;
+                }}
+                onMouseLeave={e => {
+                  const el = e.currentTarget as HTMLElement;
+                  el.style.borderColor = "rgba(0,212,255,0.1)";
+                  el.style.boxShadow = "none";
+                }}
+              >
+                <div style={{
+                  display: "inline-block", padding: "3px 10px",
+                  border: `1px solid ${post.color}44`, borderRadius: "2px",
+                  marginBottom: "1rem", fontSize: "0.7rem", letterSpacing: "1px",
+                  color: post.color, textTransform: "uppercase",
+                  fontFamily: "'Syne', sans-serif",
+                }}>{post.category}</div>
 
-              <h3 style={{
-                fontFamily: "'Syne', sans-serif", fontSize: "0.95rem",
-                fontWeight: 700, marginBottom: "0.75rem", lineHeight: 1.4,
-                color: "#e0f0ff",
-              }}>{post.title}</h3>
+                <h3 style={{
+                  fontFamily: "'Syne', sans-serif", fontSize: "0.95rem",
+                  fontWeight: 700, marginBottom: "0.75rem", lineHeight: 1.4,
+                  color: "#e0f0ff",
+                }}>{post.title}</h3>
 
-              <p style={{ color: "#4a7fa5", fontSize: "0.9rem", marginBottom: "1.25rem", lineHeight: 1.6 }}>
-                {post.excerpt}
-              </p>
+                <p style={{ color: "#4a7fa5", fontSize: "0.9rem", marginBottom: "1.25rem", lineHeight: 1.6 }}>
+                  {post.excerpt}
+                </p>
 
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <span style={{ fontSize: "0.75rem", color: "#2a5f7a" }}>{post.date}</span>
-                <span style={{ fontSize: "0.75rem", color: post.color }}>{post.readTime}</span>
-              </div>
-            </article>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <span style={{ fontSize: "0.75rem", color: "#2a5f7a" }}>{post.date}</span>
+                  <span style={{ fontSize: "0.75rem", color: post.color }}>{post.readTime}</span>
+                </div>
+              </article>
+            </a>
           ))}
         </div>
       </section>
