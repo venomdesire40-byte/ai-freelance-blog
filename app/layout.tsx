@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     description: "Honest AI tool reviews & productivity hacks for freelancers",
     type: "website",
   },
+  verification: {
+  google: "p39kdCyXcPUgApSleCeVbC0IWwbXJ9ylPsUJ0hWFL5M"
+},
 };
 
 export default function RootLayout({
