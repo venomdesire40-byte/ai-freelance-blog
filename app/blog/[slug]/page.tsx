@@ -15,7 +15,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "Apr 28, 2026",
     readTime: "8 min read",
-    color: "#00d4ff",
+    color: "#f97316",
     content: [
       { type: "intro", text: "If you're a freelance writer in 2026, AI tools are no longer optional — they're your competitive edge. I tested 20+ tools over 3 months on real client projects. Here are the 5 that actually made me money." },
       { type: "h2", text: "1. Claude by Anthropic — Best for Long-Form Writing" },
@@ -42,7 +42,7 @@ const posts: Record<string, {
     category: "Comparisons",
     date: "Apr 25, 2026",
     readTime: "12 min read",
-    color: "#00ff9f",
+    color: "#ffffff",
     content: [
       { type: "intro", text: "I paid for both Claude Pro and ChatGPT Plus for 30 days and used them on real client work — no shortcuts, no cherry-picking. Here is the full honest breakdown of which tool is worth your money as a freelancer." },
       { type: "h2", text: "Writing Quality — Claude Wins" },
@@ -105,9 +105,9 @@ export default function BlogPost() {
   if (!post) return (
     <main style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", background: "#020408" }}>
       <div style={{ textAlign: "center", fontFamily: "'Syne', sans-serif", color: "#4a7fa5" }}>
-        <h1 style={{ fontSize: "2rem", color: "#00d4ff", marginBottom: "1rem" }}>404</h1>
+        <h1 style={{ fontSize: "2rem", color: "#f97316", marginBottom: "1rem" }}>404</h1>
         <p>Post not found.</p>
-        <a href="/" style={{ color: "#00d4ff", marginTop: "1rem", display: "inline-block" }}>← Back Home</a>
+        <a href="/" style={{ color: "#f97316", marginTop: "1rem", display: "inline-block" }}>← Back Home</a>
       </div>
     </main>
   );
@@ -116,24 +116,24 @@ export default function BlogPost() {
     <main style={{ minHeight: "100vh", position: "relative", zIndex: 1 }}>
       <nav style={{
         display: "flex", justifyContent: "space-between", alignItems: "center",
-        padding: "1.2rem 3rem", borderBottom: "1px solid rgba(0,212,255,0.1)",
+        padding: "1.2rem 3rem", borderBottom: "1px solid rgba(249,115,22,0.1)",
         backdropFilter: "blur(10px)", position: "sticky", top: 0, zIndex: 100,
         background: "rgba(2,4,8,0.9)",
       }}>
         <a href="/" style={{
           fontFamily: "'Syne', sans-serif", fontSize: "1.2rem",
-          fontWeight: 800, color: "#00d4ff",
-          textShadow: "0 0 20px rgba(0,212,255,0.5)",
+          fontWeight: 800, color: "#f97316",
+          textShadow: "0 0 20px rgba(249,115,22,0.5)",
           textDecoration: "none",
         }}>
-          AI<span style={{ color: "#00ff9f" }}>FREELANCE</span>
+          AI<span style={{ color: "#ffffff" }}>FREELANCE</span>
         </a>
         <a href="/" style={{
           color: "#4a7fa5", textDecoration: "none", fontSize: "0.85rem",
           fontFamily: "'Syne', sans-serif", letterSpacing: "1px",
           transition: "color 0.2s",
         }}
-          onMouseEnter={e => (e.target as HTMLElement).style.color = "#00d4ff"}
+          onMouseEnter={e => (e.target as HTMLElement).style.color = "#f97316"}
           onMouseLeave={e => (e.target as HTMLElement).style.color = "#4a7fa5"}
         >← Back to Blog</a>
       </nav>
@@ -160,7 +160,7 @@ export default function BlogPost() {
 
         <div style={{
           display: "flex", gap: "1.5rem", marginBottom: "3rem",
-          paddingBottom: "1.5rem", borderBottom: "1px solid rgba(0,212,255,0.1)",
+          paddingBottom: "1.5rem", borderBottom: "1px solid rgba(249,115,22,0.1)",
         }}>
           <span style={{ fontSize: "0.8rem", color: "#2a5f7a" }}>{post.date}</span>
           <span style={{ fontSize: "0.8rem", color: post.color }}>{post.readTime}</span>
@@ -205,8 +205,8 @@ export default function BlogPost() {
         {/* CTA */}
         <div style={{
           marginTop: "4rem", padding: "2rem",
-          border: "1px solid rgba(0,212,255,0.15)",
-          borderRadius: "4px", background: "rgba(0,212,255,0.03)",
+          border: "1px solid rgba(249,115,22,0.15)",
+          borderRadius: "4px", background: "rgba(249,115,22,0.03)",
           textAlign: "center",
         }}>
           <p style={{
@@ -215,7 +215,7 @@ export default function BlogPost() {
           }}>Want more honest AI tool reviews?</p>
           <a href="/" style={{
             display: "inline-block", padding: "10px 24px",
-            border: "1px solid #00d4ff", color: "#00d4ff",
+            border: "1px solid #f97316", color: "#f97316",
             textDecoration: "none", fontFamily: "'Syne', sans-serif",
             fontSize: "0.8rem", letterSpacing: "2px", borderRadius: "2px",
           }}>← BACK TO ALL POSTS</a>
@@ -223,12 +223,12 @@ export default function BlogPost() {
       </article>
 
       <footer style={{
-        borderTop: "1px solid rgba(0,212,255,0.1)",
+        borderTop: "1px solid rgba(249,115,22,0.1)",
         padding: "2rem 3rem", textAlign: "center",
         color: "#2a5f7a", fontSize: "0.8rem",
         fontFamily: "'Syne', sans-serif", letterSpacing: "1px",
       }}>
-        AI<span style={{ color: "#00ff9f" }}>FREELANCE</span> © 2026 — Built for Freelancers
+        AI<span style={{ color: "#ffffff" }}>FREELANCE</span> © 2026 — Built for Freelancers
       </footer>
     </main>
   );
