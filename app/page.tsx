@@ -75,7 +75,7 @@ export default function Home() {
         </div>
         <div style={{ display: "flex", gap: "2rem" }}>
           {["Home", "Reviews", "Comparisons", "Productivity", "About"].map((item) => (
-            <a key={item} href="#" style={{
+            <a key={item} href={item === "About" ? "/about" : "/"} style={{
               color: "#8b7fa8", textDecoration: "none", fontSize: "0.85rem",
               fontFamily: "'Syne', sans-serif", fontWeight: 500,
               letterSpacing: "1px", textTransform: "uppercase",
