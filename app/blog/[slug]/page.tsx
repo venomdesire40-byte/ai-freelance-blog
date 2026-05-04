@@ -16,7 +16,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "Apr 28, 2026",
     readTime: "9 min read",
-    color: "#f97316",
+    color: "#5F8B6E",
     metaDesc: "Tested 20+ AI tools for freelance writers. Here are the 5 that actually save time, improve quality, and make you more money in 2026.",
     content: [
       { type: "intro", text: "If you're a freelance writer in 2026, AI tools are no longer optional — they're your competitive edge. I tested 20+ tools over 3 months on real client projects worth over $8,000. Here are the 5 that actually made me money, and the ones that wasted my time." },
@@ -38,7 +38,7 @@ const posts: Record<string, {
       { type: "p", text: "If your freelance work is primarily marketing content — blog posts for brands, email campaigns, landing pages, ad copy — Jasper is purpose-built for you. Its templates are designed specifically for marketing output and it trains on your brand voice over time. For freelancers with consistent clients who need branded content at scale, Jasper's brand voice feature alone saves hours of briefing time per month." },
       { type: "verdict", text: "Best for: Marketing content, brand writing, email campaigns. Paid plans from $39/month at jasper.ai" },
       { type: "h2", text: "The Complete Freelance Writer AI Stack" },
-      { type: "p", text: "The highest-earning freelance writers in 2026 do not use one tool. They use a stack. Here is the exact workflow: Start every article with Perplexity for research. Draft with Claude for long-form or ChatGPT for short content. Run the final piece through Grammarly before delivery. If you have consistent marketing clients, add Jasper for brand voice consistency. This stack is available entirely on free tiers. Zero cost. Start today." },
+      { type: "p", text: "The highest-earning freelance writers in 2026 do not use one tool. They use a stack. Here is the exact workflow: Start every article with Perplexity for research. Draft with Claude for long-form or ChatGPT for short content. Run the final piece through Grammarly before delivery. If you have consistent marketing clients, add Jasper for brand voice consistency. This stack is available entirely on free tiers. Zero cost. Start today.For a complete list of free options, read our guide on free AI tools that actually work for freelancers." },
       { type: "h2", text: "Frequently Asked Questions" },
       { type: "p", text: "Which AI tool is best for beginner freelance writers? Claude on its free tier is the best starting point for beginners. It is powerful enough for professional client work, free, and requires no technical setup — just go to claude.ai and start writing." },
       { type: "p", text: "Can clients tell if I use AI to write their content? Clients can tell when AI content is unedited. They cannot tell when AI is used as a drafting tool and the output is properly edited and personalized. Always edit AI output before delivery — treat it as a first draft, not a finished product." },
@@ -123,7 +123,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "Apr 30, 2026",
     readTime: "10 min read",
-    color: "#f97316",
+    color: "#5F8B6E",
     metaDesc: "The exact AI tools top Upwork freelancers use in 2026 to write better proposals, deliver faster, and earn more per hour. Tested on real Upwork projects.",
     content: [
       { type: "intro", text: "Upwork has over 18 million freelancers competing for the same projects. AI tools are now the difference between a 6% proposal response rate and a 27% response rate. I have tested every major AI tool on real Upwork proposals, project delivery, and client communication over 6 months. Here is exactly what works." },
@@ -193,11 +193,11 @@ export default function BlogPost() {
   }, []);
 
   if (!post) return (
-    <main style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", background: "#080010" }}>
+    <main style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", background: "#F5F0E8" }}>
       <div style={{ textAlign: "center", fontFamily: "'Syne', sans-serif", color: "#8b7fa8" }}>
-        <h1 style={{ fontSize: "2rem", color: "#f97316", marginBottom: "1rem" }}>404</h1>
+        <h1 style={{ fontSize: "2rem", color: "#5F8B6E", marginBottom: "1rem" }}>404</h1>
         <p>Post not found.</p>
-        <a href="/" style={{ color: "#f97316", marginTop: "1rem", display: "inline-block" }}>← Back Home</a>
+        <a href="/" style={{ color: "#5F8B6E", marginTop: "1rem", display: "inline-block" }}>← Back Home</a>
       </div>
     </main>
   );
@@ -206,14 +206,14 @@ export default function BlogPost() {
     <main style={{ minHeight: "100vh", position: "relative", zIndex: 1 }}>
       <nav style={{
         display: "flex", justifyContent: "space-between", alignItems: "center",
-        padding: "1.2rem 3rem", borderBottom: "1px solid rgba(249,115,22,0.15)",
+        padding: "1.2rem 3rem", borderBottom: "1px solid rgba(95,139,110,0.25)",
         backdropFilter: "blur(20px)", position: "sticky", top: 0, zIndex: 100,
-        background: "rgba(8,0,16,0.9)",
+        background: "rgba(245,240,232,0.9)",
       }}>
         <a href="/" style={{
           fontFamily: "'Syne', sans-serif", fontSize: "1.2rem",
-          fontWeight: 800, color: "#f97316", textDecoration: "none",
-          textShadow: "0 0 20px rgba(249,115,22,0.4)",
+          fontWeight: 800, color: "#5F8B6E", textDecoration: "none",
+          textShadow: "0 0 20px rgba(95,139,110,0.25)",
         }}>
           AI<span style={{ color: "#ffffff" }}>FREELANCE</span>
         </a>
@@ -222,7 +222,7 @@ export default function BlogPost() {
           fontFamily: "'Syne', sans-serif", letterSpacing: "1px",
           transition: "color 0.2s",
         }}
-          onMouseEnter={e => (e.target as HTMLElement).style.color = "#f97316"}
+          onMouseEnter={e => (e.target as HTMLElement).style.color = "#5F8B6E"}
           onMouseLeave={e => (e.target as HTMLElement).style.color = "#8b7fa8"}
         >← Back to Blog</a>
       </nav>
@@ -236,20 +236,22 @@ export default function BlogPost() {
           display: "inline-block", padding: "3px 12px",
           border: `1px solid ${post.color}44`, borderRadius: "2px",
           marginBottom: "1.5rem", fontSize: "0.7rem", letterSpacing: "1px",
-          color: post.color, textTransform: "uppercase",
+          color: "#5F8B6E", textTransform: "uppercase",
           fontFamily: "'Syne', sans-serif",
         }}>{post.category}</div>
 
         <h1 style={{
           fontFamily: "'Syne', sans-serif",
           fontSize: "clamp(1.6rem, 3.5vw, 2.2rem)",
-          fontWeight: 700, lineHeight: 1.3,
-          marginBottom: "1rem", color: "#f1f0f5",
+          fontWeight: 900, lineHeight: 1.3,
+marginBottom: "1rem", color: "#5F8B6E",
+letterSpacing: "-0.5px",
+textShadow: "0 0 20px rgba(95,139,110,0.3), 0 0 40px rgba(95,139,110,0.15), 0 0 60px rgba(95,139,110,0.08)",
         }}>{post.title}</h1>
 
         <div style={{
           display: "flex", gap: "1.5rem", marginBottom: "3rem",
-          paddingBottom: "1.5rem", borderBottom: "1px solid rgba(249,115,22,0.1)",
+          paddingBottom: "1.5rem", borderBottom: "1px solid rgba(95,139,110,0.1)",
         }}>
           <span style={{ fontSize: "0.8rem", color: "#5a4f6e" }}>{post.date}</span>
           <span style={{ fontSize: "0.8rem", color: post.color }}>{post.readTime}</span>
@@ -257,19 +259,21 @@ export default function BlogPost() {
 
         <div>
           {post.content.map((block, i) => {
-            if (block.type === "intro") return (
-              <p key={i} style={{
-                fontSize: "1.15rem", color: "#a89bc0", lineHeight: 1.9,
-                marginBottom: "2rem", fontWeight: 400,
-                borderLeft: `3px solid ${post.color}`,
-                paddingLeft: "1.25rem",
-              }}>{block.text}</p>
-            );
+            if (block.type === "link-p") return (
+  <p key={i} style={{ color: "#3D4A3E", lineHeight: 1.9, fontSize: "1rem", marginBottom: "1rem" }}>
+    {(block as any).text}{" "}
+    <a href={(block as any).href} style={{ color: "#5F8B6E", textDecoration: "underline" }}>
+      {(block as any).linkText}
+    </a>
+  </p>
+);
             if (block.type === "h2") return (
               <h2 key={i} style={{
                 fontFamily: "'Syne', sans-serif", fontSize: "1.2rem",
-                fontWeight: 700, color: "#f1f0f5",
-                margin: "2.5rem 0 0.75rem",
+fontWeight: 900, color: "#5F8B6E",
+margin: "2.5rem 0 0.75rem",
+letterSpacing: "-0.3px",
+textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
               }}>{block.text}</h2>
             );
             if (block.type === "verdict") return (
@@ -277,45 +281,105 @@ export default function BlogPost() {
                 background: `${post.color}0d`,
                 border: `1px solid ${post.color}33`,
                 borderRadius: "4px", padding: "10px 16px",
-                fontSize: "0.85rem", color: post.color,
+                fontSize: "0.85rem", color: "#5F8B6E",
                 marginTop: "0.75rem", marginBottom: "1rem",
                 fontFamily: "'Syne', sans-serif",
+                fontWeight: 700,
               }}>✦ {block.text}</div>
             );
             return (
               <p key={i} style={{
-                color: "#8b9ab0", lineHeight: 1.9,
+                color: "#3D4A3E", lineHeight: 1.9,
                 fontSize: "1rem", marginBottom: "1rem",
               }}>{block.text}</p>
             );
           })}
         </div>
 
-        <div style={{
-          marginTop: "4rem", padding: "2rem",
-          border: "1px solid rgba(249,115,22,0.15)",
-          borderRadius: "8px", background: "rgba(249,115,22,0.03)",
-          textAlign: "center",
-        }}>
-          <p style={{
-            fontFamily: "'Syne', sans-serif", color: "#f1f0f5",
-            fontSize: "1rem", marginBottom: "1rem",
-          }}>Want more honest AI tool reviews?</p>
-          <a href="/" style={{
-            display: "inline-block", padding: "10px 24px",
-            border: "1px solid #f97316", color: "#f97316",
-            textDecoration: "none", fontFamily: "'Syne', sans-serif",
-            fontSize: "0.8rem", letterSpacing: "2px", borderRadius: "4px",
-            transition: "background 0.2s",
+        {/* Related Articles */}
+<div style={{
+  marginTop: "5rem",
+  paddingTop: "2rem",
+  borderTop: "1px solid rgba(95,139,110,0.2)",
+}}>
+  <h3 style={{
+    fontFamily: "'Syne', sans-serif",
+    fontSize: "0.8rem",
+    letterSpacing: "3px",
+    color: "#5F8B6E",
+    textTransform: "uppercase",
+    marginBottom: "1.5rem",
+  }}>Continue Reading</h3>
+
+  <div style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+    gap: "1rem",
+  }}>
+    {Object.entries(posts)
+      .filter(([key]) => key !== slug)
+      .slice(0, 3)
+      .map(([key, related], i) => (
+        <a key={key} href={`/blog/${key}`} style={{ textDecoration: "none" }}
+          className="related-card"
+        >
+          <div style={{
+            background: "rgba(255,255,255,0.5)",
+            border: "1px solid rgba(95,139,110,0.15)",
+            borderRadius: "10px",
+            padding: "1.25rem",
+            backdropFilter: "blur(10px)",
+            transition: "all 0.2s ease",
+            opacity: 0,
+            transform: "translateY(20px)",
+            animation: `fadeInUp 0.5s ease ${i * 0.15}s forwards`,
           }}
-            onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = "rgba(249,115,22,0.1)"}
-            onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = "transparent"}
-          >← BACK TO ALL POSTS</a>
-        </div>
+            onMouseEnter={e => {
+              const el = e.currentTarget as HTMLElement;
+              el.style.borderColor = "#5F8B6E";
+              el.style.boxShadow = "0 8px 25px rgba(95,139,110,0.15)";
+              el.style.transform = "translateY(-3px)";
+            }}
+            onMouseLeave={e => {
+              const el = e.currentTarget as HTMLElement;
+              el.style.borderColor = "rgba(95,139,110,0.15)";
+              el.style.boxShadow = "none";
+              el.style.transform = "translateY(0)";
+            }}
+          >
+            <div style={{
+              fontSize: "0.65rem",
+              letterSpacing: "1px",
+              color: "#5F8B6E",
+              textTransform: "uppercase",
+              fontFamily: "'Syne', sans-serif",
+              marginBottom: "0.5rem",
+            }}>{related.category}</div>
+
+            <h4 style={{
+              fontFamily: "'Syne', sans-serif",
+              fontSize: "0.88rem",
+              fontWeight: 800,
+              color: "#2C4A35",
+              lineHeight: 1.4,
+              marginBottom: "0.75rem",
+              textShadow: "0 0 12px rgba(95,139,110,0.2)",
+            }}>{related.title}</h4>
+
+            <div style={{
+              fontSize: "0.75rem",
+              color: "#5F8B6E",
+              fontFamily: "'Syne', sans-serif",
+            }}>{related.readTime} →</div>
+          </div>
+        </a>
+      ))}
+  </div>
+</div>
       </article>
 
       <footer style={{
-        borderTop: "1px solid rgba(249,115,22,0.1)",
+        borderTop: "1px solid rgba(95,139,110,0.1)",
         padding: "2rem 3rem", textAlign: "center",
         color: "#5a4f6e", fontSize: "0.8rem",
         fontFamily: "'Syne', sans-serif", letterSpacing: "1px",

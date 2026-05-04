@@ -10,8 +10,8 @@ const posts = [
     category: "AI Reviews",
     date: "Apr 28, 2026",
     readTime: "8 min read",
-    color: "#f97316",
-    image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80&auto=format&fit=crop",
+    color: "#5F8B6E",
+    image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&q=80&auto=format&fit=crop",
   },
   {
     id: 2,
@@ -21,29 +21,8 @@ const posts = [
     category: "Comparisons",
     date: "Apr 25, 2026",
     readTime: "12 min read",
-    color: "#06b6d4",
-    image: "https://images.unsplash.com/photo-1676299081847-824916de030a?w=600&q=80&auto=format&fit=crop",
-  },{
-    id: 4,
-    slug: "best-ai-tools-upwork-freelancers-2026",
-    title: "Best AI Tools for Upwork Freelancers in 2026 — Win More Proposals",
-    excerpt: "The exact AI tools top Upwork freelancers use to write better proposals, deliver faster, and earn more per hour. Tested on real projects.",
-    category: "AI Reviews",
-    date: "Apr 30, 2026",
-    readTime: "10 min read",
-    color: "#f97316",
-    image: "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=600&q=80&auto=format&fit=crop",
-  },
-  {
-    id: 5,
-    slug: "how-to-use-chatgpt-write-winning-proposals",
-    title: "How to Use ChatGPT to Write Winning Freelance Proposals in 2026",
-    excerpt: "Step-by-step guide with exact prompts that get 25-35% response rates on Upwork and direct client outreach. Real results, no fluff.",
-    category: "Productivity",
-    date: "Apr 29, 2026",
-    readTime: "8 min read",
-    color: "#06b6d4",
-    image: "https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=600&q=80&auto=format&fit=crop",
+    color: "#5F8B6E",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&q=80&auto=format&fit=crop",
   },
   {
     id: 3,
@@ -53,8 +32,30 @@ const posts = [
     category: "Productivity",
     date: "Apr 20, 2026",
     readTime: "6 min read",
-    color: "#f43f5e",
-    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80&auto=format&fit=crop",
+    color: "#5F8B6E",
+    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&q=80&auto=format&fit=crop",
+  },
+  {
+    id: 4,
+    slug: "best-ai-tools-upwork-freelancers-2026",
+    title: "Best AI Tools for Upwork Freelancers in 2026 — Win More Proposals",
+    excerpt: "The exact AI tools top Upwork freelancers use to write better proposals, deliver faster, and earn more per hour.",
+    category: "AI Reviews",
+    date: "Apr 30, 2026",
+    readTime: "10 min read",
+    color: "#5F8B6E",
+    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&q=80&auto=format&fit=crop",
+  },
+  {
+    id: 5,
+    slug: "how-to-use-chatgpt-write-winning-proposals",
+    title: "How to Use ChatGPT to Write Winning Freelance Proposals in 2026",
+    excerpt: "Step-by-step guide with exact prompts that get 25-35% response rates on Upwork and direct client outreach.",
+    category: "Productivity",
+    date: "Apr 29, 2026",
+    readTime: "8 min read",
+    color: "#5F8B6E",
+    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&q=80&auto=format&fit=crop",
   },
 ];
 
@@ -82,15 +83,15 @@ export default function Home() {
       {/* Navbar */}
       <nav style={{
         display: "flex", justifyContent: "space-between", alignItems: "center",
-        padding: "1.2rem 3rem", borderBottom: "1px solid rgba(249,115,22,0.15)",
+        padding: "1.2rem 3rem", borderBottom: "1px solid rgba(95,139,110,0.15)",
         backdropFilter: "blur(20px)", position: "sticky", top: 0, zIndex: 100,
         background: "rgba(8,0,16,0.85)",
         opacity: visible ? 1 : 0, transition: "opacity 0.8s ease",
       }}>
         <div style={{
           fontFamily: "'Syne', sans-serif", fontSize: "1.2rem",
-          fontWeight: 800, color: "#f97316",
-          textShadow: "0 0 20px rgba(249,115,22,0.6)",
+          fontWeight: 800, color: "#5F8B6E",
+          textShadow: "0 0 20px rgba(95,139,110,0.6)",
         }}>
           AI<span style={{ color: "#ffffff" }}>FREELANCE</span>
         </div>
@@ -102,7 +103,7 @@ export default function Home() {
               letterSpacing: "1px", textTransform: "uppercase",
               transition: "color 0.2s",
             }}
-              onMouseEnter={e => (e.target as HTMLElement).style.color = "#f97316"}
+              onMouseEnter={e => (e.target as HTMLElement).style.color = "#5F8B6E"}
               onMouseLeave={e => (e.target as HTMLElement).style.color = "#8b7fa8"}
             >{item}</a>
           ))}
@@ -117,12 +118,12 @@ export default function Home() {
       }}>
         <div style={{
           display: "inline-flex", alignItems: "center", gap: 8,
-          padding: "4px 16px", border: "1px solid rgba(249,115,22,0.4)",
+          padding: "4px 16px", border: "1px solid rgba(95,139,110,0.4)",
           borderRadius: "20px", marginBottom: "1.5rem",
           fontSize: "0.75rem", letterSpacing: "2px",
-          color: "#f97316", textTransform: "uppercase",
+          color: "#5F8B6E", textTransform: "uppercase",
           fontFamily: "'Syne', sans-serif",
-          background: "rgba(249,115,22,0.05)",
+          background: "rgba(95,139,110,0.05)",
         }}>
           <span style={{
             display: "inline-block", width: 8, height: 8,
@@ -139,10 +140,10 @@ export default function Home() {
   fontWeight: 800, lineHeight: 1.15, marginBottom: "1.5rem",
   letterSpacing: "-0.5px",
 }}>
-  <span style={{ color: "#f1f0f5" }}>Master </span>
+  <span style={{ color: "#2C4A35" }}>Master </span>
   <span style={{
-    color: "#f97316",
-    borderRight: showCursor ? "3px solid #f97316" : "3px solid transparent",
+    color: "#5F8B6E",
+    borderRight: showCursor ? "3px solid #5F8B6E" : "3px solid transparent",
     paddingRight: "4px",
   }}>
     {typed}
@@ -150,7 +151,7 @@ export default function Home() {
 </h1>
 
         <p style={{
-          fontSize: "1.1rem", color: "#a89bc0", maxWidth: "580px",
+          fontSize: "1.1rem", color: "#3D4A3E", maxWidth: "580px",
           marginBottom: "2.5rem", lineHeight: 1.8, fontWeight: 400,
         }}>
           Honest AI tool reviews, productivity hacks & income strategies —
@@ -159,24 +160,24 @@ export default function Home() {
 
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
           {[
-            { label: "EXPLORE BLOG", color: "#f97316", border: "#f97316", bg: "rgba(249,115,22,0.08)" },
-            { label: "LATEST POSTS", color: "#8b7fa8", border: "rgba(255,255,255,0.1)", bg: "transparent" },
+            { label: "EXPLORE BLOG", color: "#FFFFFF", border: "#5F8B6E", bg: "#5F8B6E" },
+{ label: "LATEST POSTS", color: "#FFFFFF", border: "#5F8B6E", bg: "#5F8B6E" },
           ].map(btn => (
             <button key={btn.label} style={{
-              padding: "12px 28px", background: "transparent",
-              border: `1px solid ${btn.border}`, color: btn.color,
+              padding: "12px 28px", background: "#5F8B6E",
+              border: `1px solid #5F8B6E`, color: "#FFFFFF",
               fontFamily: "'Syne', sans-serif", fontSize: "0.8rem",
               letterSpacing: "2px", borderRadius: "4px",
               transition: "background 0.2s, box-shadow 0.2s",
             }}
               onMouseEnter={e => {
-                (e.currentTarget as HTMLElement).style.background = btn.bg;
-                (e.currentTarget as HTMLElement).style.boxShadow = `0 0 20px rgba(249,115,22,0.25)`;
-              }}
-              onMouseLeave={e => {
-                (e.currentTarget as HTMLElement).style.background = "transparent";
-                (e.currentTarget as HTMLElement).style.boxShadow = "none";
-              }}
+  (e.currentTarget as HTMLElement).style.background = "#4A7A5A";
+  (e.currentTarget as HTMLElement).style.boxShadow = `0 4px 15px rgba(95,139,110,0.4)`;
+}}
+onMouseLeave={e => {
+  (e.currentTarget as HTMLElement).style.background = "#5F8B6E";
+  (e.currentTarget as HTMLElement).style.boxShadow = "none";
+}}
             >{btn.label}</button>
           ))}
         </div>
@@ -184,13 +185,13 @@ export default function Home() {
         {/* Stats */}
         <div style={{
           display: "flex", gap: "3rem", marginTop: "4rem",
-          paddingTop: "2rem", borderTop: "1px solid rgba(249,115,22,0.15)",
+          paddingTop: "2rem", borderTop: "1px solid rgba(95,139,110,0.15)",
         }}>
           {[["50+", "Tools Reviewed"], ["100%", "Honest Reviews"], ["10K+", "Monthly Readers"]].map(([num, label]) => (
             <div key={label}>
               <div style={{
                 fontFamily: "'Syne', sans-serif", fontSize: "1.8rem",
-                fontWeight: 700, color: "#f97316",
+                fontWeight: 700, color: "#5F8B6E",
               }}>{num}</div>
               <div style={{ fontSize: "0.8rem", color: "#8b7fa8", letterSpacing: "1px" }}>{label}</div>
             </div>
@@ -210,9 +211,11 @@ export default function Home() {
           {posts.map((post, i) => (
             <a key={post.id} href={`/blog/${post.slug}`} style={{ textDecoration: "none" }}>
               <article style={{
-                background: "rgba(13,0,24,0.7)",
-                border: `1px solid rgba(249,115,22,0.12)`,
-                borderRadius: "12px", overflow: "hidden",
+               background: "rgba(255,255,255,0.5)",
+               border: `1px solid rgba(95,139,110,0.15)`,
+               borderRadius: "12px", overflow: "hidden",
+               backdropFilter: "blur(10px)",
+boxShadow: "inset 0 0 30px rgba(95,139,110,0.06)",
                 opacity: visible ? 1 : 0,
                 transform: visible ? "translateY(0)" : "translateY(20px)",
                 transition: `opacity 0.6s ease ${0.4 + i * 0.15}s, transform 0.6s ease ${0.4 + i * 0.15}s, border-color 0.08s, box-shadow 0.08s`,
@@ -225,7 +228,7 @@ export default function Home() {
                 }}
                 onMouseLeave={e => {
                   const el = e.currentTarget as HTMLElement;
-                  el.style.borderColor = "rgba(249,115,22,0.12)";
+                  el.style.borderColor = "rgba(95,139,110,0.12)";
                   el.style.boxShadow = "none";
                   el.style.transform = "translateY(0)";
                 }}
@@ -266,11 +269,12 @@ export default function Home() {
                 <div style={{ padding: "1.25rem" }}>
                   <h3 style={{
                     fontFamily: "'Syne', sans-serif", fontSize: "0.95rem",
-                    fontWeight: 700, marginBottom: "0.6rem", lineHeight: 1.4,
-                    color: "#f1f0f5",
+                    fontWeight: 800, marginBottom: "0.75rem", lineHeight: 1.4,
+                    color: "#2C4A35",
+                    textShadow: "0 0 12px rgba(95,139,110,0.25), 0 0 25px rgba(95,139,110,0.12)",
                   }}>{post.title}</h3>
 
-                  <p style={{ color: "#8b7fa8", fontSize: "0.875rem", marginBottom: "1rem", lineHeight: 1.6 }}>
+                  <p style={{ color: "#3D4A3E", fontSize: "0.875rem", marginBottom: "1rem", lineHeight: 1.6 }}>
                     {post.excerpt}
                   </p>
 
@@ -287,12 +291,12 @@ export default function Home() {
 
       {/* Footer */}
       <footer style={{
-        borderTop: "1px solid rgba(249,115,22,0.1)",
+        borderTop: "1px solid rgba(95,139,110,0.1)",
         padding: "2rem 3rem", textAlign: "center",
         color: "#5a4f6e", fontSize: "0.8rem",
         fontFamily: "'Syne', sans-serif", letterSpacing: "1px",
       }}>
-        AI<span style={{ color: "#ffffff" }}>FREELANCE</span> © 2026 — Built for Freelancers
+        AI<span style={{ color: "#2C4A35" }}>FREELANCE</span> © 2026 — Built for Freelancers
       </footer>
 
     </main>
