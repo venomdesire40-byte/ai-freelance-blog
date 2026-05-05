@@ -57,6 +57,17 @@ const posts = [
     color: "#5F8B6E",
     image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&q=80&auto=format&fit=crop",
   },
+  {
+    id: 6,
+    slug: "how-to-get-first-upwork-client-using-ai-tools-2026",
+    title: "How to Get Your First Upwork Client Using AI Tools in 2026",
+    excerpt: "Step-by-step guide to landing your first Upwork client using AI tools. Real strategies, exact prompts, and proven methods for complete beginners.",
+    category: "Productivity",
+    date: "May 3, 2026",
+    readTime: "11 min read",
+    color: "#5F8B6E",
+    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&q=80&auto=format&fit=crop",
+  },
 ];
 
 export default function Home() {
