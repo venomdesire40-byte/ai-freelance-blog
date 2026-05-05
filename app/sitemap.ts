@@ -26,5 +26,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    {
+  url: 'https://ai-freelance-blog.vercel.app/blog/best-ai-tools-upwork-freelancers-2026',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/how-to-use-chatgpt-write-winning-proposals',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
   ]
 }
