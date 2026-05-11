@@ -74,6 +74,7 @@ export default function Home() {
   const [typed, setTyped] = useState("");
   const [showCursor, setShowCursor] = useState(true);
   const [visible, setVisible] = useState(false);
+const [menuOpen, setMenuOpen] = useState(false);
   const fullText = "AI Tools for Freelancers";
 
   useEffect(() => {
@@ -93,33 +94,81 @@ export default function Home() {
 
       {/* Navbar */}
       <nav style={{
-        display: "flex", justifyContent: "space-between", alignItems: "center",
-        padding: "1.2rem 3rem", borderBottom: "1px solid rgba(95,139,110,0.15)",
-        backdropFilter: "blur(20px)", position: "sticky", top: 0, zIndex: 100,
-        background: "rgba(8,0,16,0.85)",
-        opacity: visible ? 1 : 0, transition: "opacity 0.8s ease",
-      }}>
-        <div style={{
-          fontFamily: "'Syne', sans-serif", fontSize: "1.2rem",
-          fontWeight: 800, color: "#5F8B6E",
-          textShadow: "0 0 20px rgba(95,139,110,0.6)",
-        }}>
-          AI<span style={{ color: "#ffffff" }}>FREELANCE</span>
-        </div>
-        <div style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}>
-          {["Home", "Reviews", "Comparisons", "Productivity", "About"].map((item) => (
-            <a key={item} href={item === "About" ? "/about" : "/"} style={{
-              color: "#8b7fa8", textDecoration: "none", fontSize: "0.85rem",
-              fontFamily: "'Syne', sans-serif", fontWeight: 500,
-              letterSpacing: "1px", textTransform: "uppercase",
-              transition: "color 0.2s",
-            }}
-              onMouseEnter={e => (e.target as HTMLElement).style.color = "#5F8B6E"}
-              onMouseLeave={e => (e.target as HTMLElement).style.color = "#8b7fa8"}
-            >{item}</a>
-          ))}
-        </div>
-      </nav>
+  display: "flex", justifyContent: "space-between", alignItems: "center",
+  padding: "1.2rem 1rem", borderBottom: "1px solid rgba(95,139,110,0.15)",
+  backdropFilter: "blur(20px)", position: "sticky", top: 0, zIndex: 100,
+  background: "rgba(8,0,16,0.95)",
+  opacity: visible ? 1 : 0, transition: "opacity 0.8s ease",
+}}>
+  <a href="/" style={{
+    fontFamily: "'Syne', sans-serif", fontSize: "1.2rem",
+    fontWeight: 800, color: "#5F8B6E", textDecoration: "none",
+  }}>
+    AI<span style={{ color: "#ffffff" }}>FREELANCE</span>
+  </a>
+
+  {/* Desktop Nav */}
+  <div style={{ display: "flex", gap: "2rem" }} className="nav-links">
+    {[
+      { label: "Home", href: "/" },
+      { label: "Reviews", href: "/#latest" },
+      { label: "Comparisons", href: "/#latest" },
+      { label: "Productivity", href: "/#latest" },
+      { label: "About", href: "/about" },
+    ].map((item) => (
+      <a key={item.label} href={item.href} style={{
+        color: "#8b7fa8", textDecoration: "none", fontSize: "0.85rem",
+        fontFamily: "'Syne', sans-serif", fontWeight: 500,
+        letterSpacing: "1px", textTransform: "uppercase",
+        transition: "color 0.2s",
+      }}
+        onMouseEnter={e => (e.target as HTMLElement).style.color = "#5F8B6E"}
+        onMouseLeave={e => (e.target as HTMLElement).style.color = "#8b7fa8"}
+      >{item.label}</a>
+    ))}
+  </div>
+
+  {/* Hamburger Button */}
+  <button
+    onClick={() => setMenuOpen(!menuOpen)}
+    style={{
+      background: "transparent",
+      border: "1px solid #5F8B6E",
+      color: "#5F8B6E",
+      padding: "6px 12px",
+      borderRadius: "4px",
+      fontSize: "1.2rem",
+      cursor: "pointer",
+    }}
+    className="hamburger-btn"
+  >☰</button>
+
+  {/* Mobile Menu */}
+  {menuOpen && (
+    <div style={{
+      position: "absolute", top: "100%", left: 0, right: 0,
+      background: "rgba(245,240,232,0.98)",
+      padding: "1rem 1.5rem",
+      display: "flex", flexDirection: "column", gap: "1rem",
+      borderBottom: "1px solid rgba(95,139,110,0.2)",
+      zIndex: 200,
+    }}>
+      {[
+        { label: "Home", href: "/" },
+        { label: "Reviews", href: "/#latest" },
+        { label: "Comparisons", href: "/#latest" },
+        { label: "Productivity", href: "/#latest" },
+        { label: "About", href: "/about" },
+      ].map(item => (
+        <a key={item.label} href={item.href} style={{
+          color: "#5F8B6E", textDecoration: "none",
+          fontSize: "1rem", fontFamily: "'Syne', sans-serif",
+          letterSpacing: "1px", textTransform: "uppercase",
+        }}>{item.label}</a>
+      ))}
+    </div>
+  )}
+</nav>
 
       {/* Hero */}
       <section style={{
