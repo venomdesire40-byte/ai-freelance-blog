@@ -333,6 +333,27 @@ export default function BlogPost() {
   );
 
   return (
+    <>
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": post.title,
+      "description": post.metaDesc,
+      "author": {
+        "@type": "Organization",
+        "name": "AIFreelance Blog"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AIFreelance Blog",
+        "url": "https://ai-freelance-blog.vercel.app"
+      }
+    })
+  }}
+/>
     <main style={{ minHeight: "100vh", position: "relative", zIndex: 1 }}>
       <nav style={{
         display: "flex", justifyContent: "space-between", alignItems: "center",
@@ -517,5 +538,6 @@ textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
         AI<span style={{ color: "#ffffff" }}>FREELANCE</span> © 2026 — Built for Freelancers
       </footer>
     </main>
+  </>
   );
 }
