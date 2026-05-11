@@ -106,7 +106,7 @@ export default function Home() {
         }}>
           AI<span style={{ color: "#ffffff" }}>FREELANCE</span>
         </div>
-        <div style={{ display: "flex", gap: "2rem" }}>
+        <div style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}>
           {["Home", "Reviews", "Comparisons", "Productivity", "About"].map((item) => (
             <a key={item} href={item === "About" ? "/about" : "/"} style={{
               color: "#8b7fa8", textDecoration: "none", fontSize: "0.85rem",
@@ -123,7 +123,7 @@ export default function Home() {
 
       {/* Hero */}
       <section style={{
-        padding: "6rem 3rem 4rem", maxWidth: "1100px", margin: "0 auto",
+        padding: "4rem 1.5rem 3rem", maxWidth: "1100px", margin: "0 auto",
         opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(30px)",
         transition: "all 1s ease 0.2s",
       }}>
@@ -211,7 +211,7 @@ onMouseLeave={e => {
       </section>
 
       {/* Blog Posts */}
-      <section style={{ padding: "2rem 3rem 6rem", maxWidth: "1100px", margin: "0 auto" }}>
+      <section style={{ padding: "2rem 1.5rem 4rem", maxWidth: "1100px", margin: "0 auto" }}>
         <h2 style={{
           fontFamily: "'Syne', sans-serif", fontSize: "1rem",
           letterSpacing: "3px", color: "#8b7fa8", textTransform: "uppercase",
