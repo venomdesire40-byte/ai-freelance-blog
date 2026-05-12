@@ -44,5 +44,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   changeFrequency: 'weekly',
   priority: 0.8,
 },
-  ]
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/best-freelance-platforms-besides-upwork-fiverr-2026',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},  
+]
 }
