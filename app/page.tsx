@@ -68,6 +68,17 @@ const posts = [
     color: "#5F8B6E",
     image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&q=80&auto=format&fit=crop",
   },
+  {
+    id: 7,
+    slug: "best-freelance-platforms-besides-upwork-fiverr-2026",
+    title: "Best Freelance Platforms Besides Upwork and Fiverr in 2026",
+    excerpt: "Tired of 20% fees? These 8 platforms offer higher pay, lower fees, and better clients. The platforms experienced freelancers actually use.",
+    category: "Productivity",
+    date: "May 12, 2026",
+    readTime: "11 min read",
+    color: "#5F8B6E",
+    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&q=80&auto=format&fit=crop",
+  },
 ];
 
 export default function Home() {
