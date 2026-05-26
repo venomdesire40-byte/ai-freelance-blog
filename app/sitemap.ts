@@ -49,6 +49,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   lastModified: new Date(),
   changeFrequency: 'weekly',
   priority: 0.8,
+},
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/google-gemini-2026-update-freelancers-complete-guide',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
 },  
 ]
 }
