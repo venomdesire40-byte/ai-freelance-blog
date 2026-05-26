@@ -79,6 +79,17 @@ const posts = [
     color: "#5F8B6E",
     image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&q=80&auto=format&fit=crop",
   },
+  {
+    id: 8,
+    slug: "google-gemini-2026-update-freelancers-complete-guide",
+    title: "Google Gemini 2026 Update — What Freelancers Need to Know Right Now",
+    excerpt: "Google's biggest AI update just dropped. Gemini 3 Flash, Gemini Spark, Deep Think mode — here's exactly what changed and how freelancers can use it.",
+    category: "AI Reviews",
+    date: "May 13, 2026",
+    readTime: "10 min read",
+    color: "#5F8B6E",
+    image: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=600&q=80&auto=format&fit=crop",
+  },
 ];
 
 export default function Home() {
