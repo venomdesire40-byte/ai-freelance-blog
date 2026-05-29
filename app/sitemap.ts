@@ -55,6 +55,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
   lastModified: new Date(),
   changeFrequency: 'weekly',
   priority: 0.8,
-},  
+},
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/how-to-earn-1000-per-month-freelancing-with-ai-tools',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/how-to-make-money-fiverr-ai-tools-2026',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/best-ai-writing-tools-seo-content-2026',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/how-to-use-perplexity-ai-freelance-research-2026',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/claude-vs-gemini-vs-chatgpt-freelancers-2026',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
 ]
 }
