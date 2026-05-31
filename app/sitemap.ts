@@ -86,5 +86,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
   changeFrequency: 'weekly',
   priority: 0.8,
 },
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/how-to-stay-competitive-freelancer-ai-2026',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/best-ai-freelance-niches-2026-high-demand',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/ai-prompt-engineering-freelance-service-2026',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/how-to-use-notion-ai-freelancers-2026',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
+{
+  url: 'https://ai-freelance-blog.vercel.app/blog/best-ai-tools-social-media-content-2026',
+  lastModified: new Date(),
+  changeFrequency: 'weekly',
+  priority: 0.8,
+},
 ]
 }
