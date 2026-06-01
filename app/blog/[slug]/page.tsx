@@ -2,6 +2,98 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 
+const internalLinks: Record<string, {text: string, slug: string}[]> = {
+  "5-best-ai-tools-for-freelance-writers-2026": [
+    { text: "free AI tools that actually work", slug: "free-ai-tools-that-actually-work-2026" },
+    { text: "Claude vs ChatGPT comparison", slug: "claude-vs-chatgpt-real-test-freelancers" },
+    { text: "best AI tools for Upwork", slug: "best-ai-tools-upwork-freelancers-2026" },
+  ],
+  "claude-vs-chatgpt-real-test-freelancers": [
+    { text: "best AI tools for freelance writers", slug: "5-best-ai-tools-for-freelance-writers-2026" },
+    { text: "Claude vs Gemini vs ChatGPT ultimate comparison", slug: "claude-vs-gemini-vs-chatgpt-freelancers-2026" },
+    { text: "free AI tools for freelancers", slug: "free-ai-tools-that-actually-work-2026" },
+  ],
+  "free-ai-tools-that-actually-work-2026": [
+    { text: "best AI tools for Upwork freelancers", slug: "best-ai-tools-upwork-freelancers-2026" },
+    { text: "how to earn $1000 per month freelancing", slug: "how-to-earn-1000-per-month-freelancing-with-ai-tools" },
+    { text: "best AI writing tools for SEO", slug: "best-ai-writing-tools-seo-content-2026" },
+  ],
+  "best-ai-tools-upwork-freelancers-2026": [
+    { text: "how to write winning proposals with ChatGPT", slug: "how-to-use-chatgpt-write-winning-proposals" },
+    { text: "how to get your first Upwork client", slug: "how-to-get-first-upwork-client-using-ai-tools-2026" },
+    { text: "best freelance platforms besides Upwork", slug: "best-freelance-platforms-besides-upwork-fiverr-2026" },
+  ],
+  "how-to-use-chatgpt-write-winning-proposals": [
+    { text: "best AI tools for Upwork freelancers", slug: "best-ai-tools-upwork-freelancers-2026" },
+    { text: "how to get your first Upwork client", slug: "how-to-get-first-upwork-client-using-ai-tools-2026" },
+    { text: "how to earn $1000 per month freelancing", slug: "how-to-earn-1000-per-month-freelancing-with-ai-tools" },
+  ],
+  "how-to-get-first-upwork-client-using-ai-tools-2026": [
+    { text: "how to write winning proposals with ChatGPT", slug: "how-to-use-chatgpt-write-winning-proposals" },
+    { text: "best AI tools for Upwork", slug: "best-ai-tools-upwork-freelancers-2026" },
+    { text: "best freelance platforms besides Upwork and Fiverr", slug: "best-freelance-platforms-besides-upwork-fiverr-2026" },
+  ],
+  "best-freelance-platforms-besides-upwork-fiverr-2026": [
+    { text: "how to get your first Upwork client", slug: "how-to-get-first-upwork-client-using-ai-tools-2026" },
+    { text: "how to earn $1000 per month freelancing", slug: "how-to-earn-1000-per-month-freelancing-with-ai-tools" },
+    { text: "best AI tools for Upwork freelancers", slug: "best-ai-tools-upwork-freelancers-2026" },
+  ],
+  "google-gemini-2026-update-freelancers-complete-guide": [
+    { text: "Claude vs Gemini vs ChatGPT comparison", slug: "claude-vs-gemini-vs-chatgpt-freelancers-2026" },
+    { text: "best AI tools for freelance writers", slug: "5-best-ai-tools-for-freelance-writers-2026" },
+    { text: "free AI tools that actually work", slug: "free-ai-tools-that-actually-work-2026" },
+  ],
+  "how-to-earn-1000-per-month-freelancing-with-ai-tools": [
+    { text: "how to get your first Upwork client", slug: "how-to-get-first-upwork-client-using-ai-tools-2026" },
+    { text: "best freelance platforms besides Upwork", slug: "best-freelance-platforms-besides-upwork-fiverr-2026" },
+    { text: "how to make money on Fiverr with AI", slug: "how-to-make-money-fiverr-ai-tools-2026" },
+  ],
+  "how-to-make-money-fiverr-ai-tools-2026": [
+    { text: "best AI tools for freelance writers", slug: "5-best-ai-tools-for-freelance-writers-2026" },
+    { text: "how to earn $1000 per month freelancing", slug: "how-to-earn-1000-per-month-freelancing-with-ai-tools" },
+    { text: "best AI freelance niches in 2026", slug: "best-ai-freelance-niches-2026-high-demand" },
+  ],
+  "best-ai-writing-tools-seo-content-2026": [
+    { text: "how to use Perplexity AI for research", slug: "how-to-use-perplexity-ai-freelance-research-2026" },
+    { text: "best AI tools for freelance writers", slug: "5-best-ai-tools-for-freelance-writers-2026" },
+    { text: "Claude vs ChatGPT for freelancers", slug: "claude-vs-chatgpt-real-test-freelancers" },
+  ],
+  "how-to-use-perplexity-ai-freelance-research-2026": [
+    { text: "best AI writing tools for SEO", slug: "best-ai-writing-tools-seo-content-2026" },
+    { text: "free AI tools that actually work", slug: "free-ai-tools-that-actually-work-2026" },
+    { text: "best AI tools for Upwork freelancers", slug: "best-ai-tools-upwork-freelancers-2026" },
+  ],
+  "claude-vs-gemini-vs-chatgpt-freelancers-2026": [
+    { text: "Claude vs ChatGPT 30-day test", slug: "claude-vs-chatgpt-real-test-freelancers" },
+    { text: "Google Gemini 2026 update guide", slug: "google-gemini-2026-update-freelancers-complete-guide" },
+    { text: "best AI tools for freelance writers", slug: "5-best-ai-tools-for-freelance-writers-2026" },
+  ],
+  "how-to-stay-competitive-freelancer-ai-2026": [
+    { text: "best AI freelance niches in 2026", slug: "best-ai-freelance-niches-2026-high-demand" },
+    { text: "how to earn $1000 per month freelancing", slug: "how-to-earn-1000-per-month-freelancing-with-ai-tools" },
+    { text: "AI prompt engineering as a freelance service", slug: "ai-prompt-engineering-freelance-service-2026" },
+  ],
+  "best-ai-freelance-niches-2026-high-demand": [
+    { text: "how to stay competitive as a freelancer", slug: "how-to-stay-competitive-freelancer-ai-2026" },
+    { text: "AI prompt engineering freelance service", slug: "ai-prompt-engineering-freelance-service-2026" },
+    { text: "how to earn $1000 per month freelancing", slug: "how-to-earn-1000-per-month-freelancing-with-ai-tools" },
+  ],
+  "ai-prompt-engineering-freelance-service-2026": [
+    { text: "best AI freelance niches in 2026", slug: "best-ai-freelance-niches-2026-high-demand" },
+    { text: "how to stay competitive as a freelancer", slug: "how-to-stay-competitive-freelancer-ai-2026" },
+    { text: "best AI tools for freelance writers", slug: "5-best-ai-tools-for-freelance-writers-2026" },
+  ],
+  "how-to-use-notion-ai-freelancers-2026": [
+    { text: "free AI tools that actually work", slug: "free-ai-tools-that-actually-work-2026" },
+    { text: "how to earn $1000 per month freelancing", slug: "how-to-earn-1000-per-month-freelancing-with-ai-tools" },
+    { text: "best AI tools for social media content", slug: "best-ai-tools-social-media-content-2026" },
+  ],
+  "best-ai-tools-social-media-content-2026": [
+    { text: "best AI tools for freelance writers", slug: "5-best-ai-tools-for-freelance-writers-2026" },
+    { text: "how to make money on Fiverr with AI", slug: "how-to-make-money-fiverr-ai-tools-2026" },
+    { text: "how to use Notion AI for freelancers", slug: "how-to-use-notion-ai-freelancers-2026" },
+  ],
+};
 const posts: Record<string, {
   title: string;
   category: string;
@@ -949,6 +1041,44 @@ textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
           })}
         </div>
 
+        {/* Internal Links */}
+{internalLinks[slug] && (
+  <div style={{
+    marginTop: "3rem",
+    padding: "1.5rem",
+    background: "rgba(95,139,110,0.05)",
+    border: "1px solid rgba(95,139,110,0.2)",
+    borderRadius: "8px",
+  }}>
+    <h3 style={{
+      fontFamily: "'Syne', sans-serif",
+      fontSize: "0.8rem",
+      letterSpacing: "2px",
+      color: "#5F8B6E",
+      textTransform: "uppercase",
+      marginBottom: "1rem",
+    }}>Related Articles</h3>
+    <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+      {internalLinks[slug].map((link, i) => (
+        <a key={i} href={`/blog/${link.slug}`} style={{
+          color: "#5F8B6E",
+          textDecoration: "none",
+          fontSize: "0.9rem",
+          fontFamily: "'DM Sans', sans-serif",
+          display: "flex",
+          alignItems: "center",
+          gap: "6px",
+          transition: "opacity 0.2s",
+        }}
+          onMouseEnter={e => (e.currentTarget as HTMLElement).style.opacity = "0.7"}
+          onMouseLeave={e => (e.currentTarget as HTMLElement).style.opacity = "1"}
+        >
+          → {link.text}
+        </a>
+      ))}
+    </div>
+  </div>
+)}
         {/* Related Articles */}
 <div style={{
   marginTop: "5rem",
