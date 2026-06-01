@@ -1,4 +1,26 @@
 "use client";
+export async function generateStaticParams() {
+  return [
+    { slug: "5-best-ai-tools-for-freelance-writers-2026" },
+    { slug: "claude-vs-chatgpt-real-test-freelancers" },
+    { slug: "free-ai-tools-that-actually-work-2026" },
+    { slug: "best-ai-tools-upwork-freelancers-2026" },
+    { slug: "how-to-use-chatgpt-write-winning-proposals" },
+    { slug: "how-to-get-first-upwork-client-using-ai-tools-2026" },
+    { slug: "best-freelance-platforms-besides-upwork-fiverr-2026" },
+    { slug: "google-gemini-2026-update-freelancers-complete-guide" },
+    { slug: "how-to-earn-1000-per-month-freelancing-with-ai-tools" },
+    { slug: "how-to-make-money-fiverr-ai-tools-2026" },
+    { slug: "best-ai-writing-tools-seo-content-2026" },
+    { slug: "how-to-use-perplexity-ai-freelance-research-2026" },
+    { slug: "claude-vs-gemini-vs-chatgpt-freelancers-2026" },
+    { slug: "how-to-stay-competitive-freelancer-ai-2026" },
+    { slug: "best-ai-freelance-niches-2026-high-demand" },
+    { slug: "ai-prompt-engineering-freelance-service-2026" },
+    { slug: "how-to-use-notion-ai-freelancers-2026" },
+    { slug: "best-ai-tools-social-media-content-2026" },
+  ];
+}
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 
