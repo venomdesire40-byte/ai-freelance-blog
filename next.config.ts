@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-  optimizePackageImports: ['react', 'react-dom'],
-},
+  /* config options here */
 };
 
 export default nextConfig;
