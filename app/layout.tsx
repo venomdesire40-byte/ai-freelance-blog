@@ -6,9 +6,7 @@ export const metadata: Metadata = {
   title: "AI Freelance Blog — Tools, Tips & Productivity for Freelancers",
   description: "Honest AI tool reviews, productivity hacks and income strategies for freelancers. Built for beginners who want to earn more with AI.",
   keywords: "AI tools for freelancers, productivity hacks, AI reviews, freelance tips, earn with AI",
-  alternates: {
-    canonical: "/", // 2. Yeh line Homepage par automatic canonical tag generate karegi
-  },
+  
   openGraph: {
     title: "AI Freelance Blog",
     description: "Honest AI tool reviews & productivity hacks for freelancers",
