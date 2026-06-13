@@ -108,7 +108,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "Apr 28, 2026",
     readTime: "9 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "Tested 20+ AI tools for freelance writers. Here are the 5 that actually save time, improve quality, and make you more money in 2026.",
     content: [
   { type: "intro", text: "If you are a freelance writer in 2026, AI tools are no longer optional — they are your competitive edge. I tested 20+ tools over 3 months on real client projects worth over $8,000. Here are the 5 that actually made me money, and the ones that wasted my time. The freelancers earning the most right now are not the most talented — they are the ones who learned to use AI as a silent business partner." },
@@ -260,7 +260,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "Apr 30, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "The exact AI tools top Upwork freelancers use in 2026 to write better proposals, deliver faster, and earn more per hour. Tested on real Upwork projects.",
     content: [
   { type: "intro", text: "Upwork has over 18 million freelancers competing for the same projects in 2026. AI tools are now the difference between a 6% proposal response rate and a 27% response rate — between winning 1 project per month and winning 5. I tested every major AI tool on real Upwork proposals, project delivery, and client communication over 6 months of active freelancing. Here is exactly what works, what does not, and why." },
@@ -354,7 +354,7 @@ const posts: Record<string, {
     category: "Productivity",
     date: "May 3, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "Step-by-step guide to landing your first Upwork client in 2026 using AI tools. Real strategies, exact prompts, and proven methods that work for complete beginners.",
     content: [
   { type: "intro", text: "Landing your first Upwork client feels impossible — until it happens. Then everything changes. This guide gives you the exact step-by-step process for getting your first Upwork client in 2026 using AI tools to do the heavy lifting. No prior experience required. No existing portfolio required. No reviews required. Just a working strategy, the right tools, and consistent daily execution." },
@@ -407,7 +407,7 @@ const posts: Record<string, {
     category: "Productivity",
     date: "May 12, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "Tired of Upwork's 20% fees and Fiverr's race to the bottom? These 8 freelance platforms offer better pay, lower fees, and higher quality clients in 2026.",
     content: [
       { type: "intro", text: "Upwork and Fiverr are the names everyone knows — but in 2026, they are far from the best options for most freelancers. Upwork charges up to 20% on your first earnings with each client. Fiverr takes a flat 20% from every transaction. Both platforms have created race-to-the-bottom pricing cultures where clients expect professional work at commodity prices. If you are serious about building sustainable freelance income in 2026, you need to know about the platforms that experienced freelancers actually use — the ones that protect your earnings, connect you with higher-quality clients, and do not extract a fifth of every dollar you earn." },
@@ -466,7 +466,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "May 13, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "Google's biggest Gemini update in 2026 just dropped. Here is exactly what changed, what it means for freelancers, and how to use the new features to earn more.",
     content: [
       { type: "intro", text: "Google just made its biggest AI update of 2026 — and most freelancers have no idea how much it changes their daily workflow. At Google I/O 2026, the company announced Gemini 3 Flash as the new default model, launched Gemini Spark as a background AI agent across Gmail and Docs, and rolled out Deep Think mode for complex reasoning tasks. This is not an incremental update. It is a fundamental change in how AI integrates into the tools you already use every day — and freelancers who understand it first will have a significant advantage over those who do not." },
@@ -522,7 +522,7 @@ const posts: Record<string, {
     category: "Productivity",
     date: "May 14, 2026",
     readTime: "12 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "Exact step-by-step plan to earn your first $1000 per month freelancing using AI tools in 2026. Real strategies, real numbers, no fluff.",
     content: [
       { type: "intro", text: "Earning $1,000 per month from freelancing is the first significant milestone — the point where freelance income becomes meaningful rather than supplemental. In 2026, AI tools have made this milestone more achievable for beginners than at any previous point in the history of freelancing. This guide gives you the exact step-by-step plan to reach $1,000 per month using AI tools — with real numbers, real timelines, and no motivational fluff." },
@@ -562,7 +562,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "May 14, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "Complete guide to making money on Fiverr using AI tools in 2026. Best gig ideas, pricing strategies, and AI workflows that top sellers actually use.",
     content: [
       { type: "intro", text: "Fiverr has over 4 million active buyers searching for services every day. AI tools have created a new category of opportunity on the platform — sellers who use AI to deliver faster, at higher quality, and at scale are consistently outperforming manual-only competitors in every category. This guide covers the exact gig ideas, AI workflows, and pricing strategies that are generating real income on Fiverr in 2026." },
@@ -593,7 +593,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "May 14, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "The best AI writing tools for SEO content in 2026, ranked by actual ranking results. Which tools produce content Google actually ranks — tested over 6 months.",
     content: [
       { type: "intro", text: "Not all AI writing tools produce SEO content that Google ranks. After 6 months of testing AI tools on real SEO projects — tracking keyword rankings, organic traffic, and content performance — here are the tools that actually moved the needle versus those that produced content Google largely ignored." },
@@ -628,7 +628,7 @@ const posts: Record<string, {
     category: "Productivity",
     date: "May 14, 2026",
     readTime: "9 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "Complete guide to using Perplexity AI for freelance research in 2026. Exact prompts, workflows, and use cases that save 2-3 hours per project.",
     content: [
       { type: "intro", text: "Perplexity AI is the most underused tool in most freelancers' AI stacks in 2026. While most attention goes to Claude and ChatGPT for writing, Perplexity solves the problem that costs freelancers the most time: researching unfamiliar topics accurately and quickly. This guide covers every way a freelancer can use Perplexity to save hours per week, deliver better work, and confidently take on projects in industries they do not personally know." },
@@ -663,7 +663,7 @@ const posts: Record<string, {
     category: "Comparisons",
     date: "May 14, 2026",
     readTime: "13 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "Claude vs Gemini vs ChatGPT for freelancers in 2026 — tested on real projects. Which AI tool wins for writing, proposals, research, and daily workflow?",
     content: [
       { type: "intro", text: "Three AI tools dominate the market in 2026 — Claude, Gemini, and ChatGPT. All three cost $20 per month for their standard paid plans. All three are genuinely capable. The question every freelancer faces is: which one do I actually pay for, or do I need all three? I tested all three on identical real client projects for 60 days. Here is what the data actually shows." },
@@ -702,7 +702,7 @@ const posts: Record<string, {
     category: "Productivity",
     date: "May 15, 2026",
     readTime: "13 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "AI is transforming freelancing in 2026. Here is exactly how to stay competitive, earn more, and thrive — not just survive — when AI is changing everything.",
     content: [
       { type: "intro", text: "AI is not coming for freelance jobs — it has already arrived. Writing projects on Upwork declined 32% year over year in 2025. Fiverr app downloads fell 18% as clients turned directly to AI tools for tasks they previously outsourced. The freelancers who built businesses on volume and speed are finding that AI can now do the same work for a fraction of the cost. This is the reality. The question is not whether AI will disrupt your freelance career — it already has. The question is what you do about it. This guide gives you the exact strategies that are working for freelancers who are thriving in 2026, not just surviving." },
@@ -750,7 +750,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "May 15, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "The 8 freelance niches exploding in 2026 because of AI. High demand, low competition, and premium rates — these are the opportunities most freelancers are missing.",
     content: [
       { type: "intro", text: "While competition is intensifying in traditional freelance categories, AI has simultaneously created entirely new niches with high demand and low competition. These are not theoretical opportunities — they are categories where clients are actively searching for skilled freelancers right now and finding insufficient supply. This guide covers the 8 freelance niches that are exploding in 2026 specifically because of AI, with practical entry strategies for each." },
@@ -799,7 +799,7 @@ const posts: Record<string, {
     category: "Productivity",
     date: "May 15, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "How to turn AI prompt engineering into a paid freelance service in 2026. Real clients, real rates, and the exact skills you need to get started today.",
     content: [
       { type: "intro", text: "Prompt engineering — the skill of crafting optimized instructions that extract high-quality, consistent output from AI tools — has become a marketable freelance service in 2026. Businesses deploying AI tools internally are getting frustratingly inconsistent results and are willing to pay specialists who can build effective prompt systems, train their teams, and create the AI workflows that actually work. This guide covers exactly how to turn prompt engineering into a paid freelance income." },
@@ -832,7 +832,7 @@ const posts: Record<string, {
     category: "Productivity",
     date: "May 15, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "Complete guide to using Notion AI for freelancers in 2026. Set up your entire freelance business in Notion — client management, project tracking, invoicing, and AI-assisted workflows.",
     content: [
       { type: "intro", text: "Notion has become the preferred workspace for thousands of freelancers in 2026 — not because it is the most powerful tool, but because it is the most flexible. With Notion AI now integrated throughout the platform, it functions simultaneously as your project management system, client CRM, content workspace, and AI writing assistant. This guide covers how to set up Notion to manage your entire freelance business efficiently, with specific AI workflows that save hours per week." },
@@ -866,7 +866,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "May 15, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "The best AI tools for social media content creation in 2026, tested on real accounts. Which tools save the most time while maintaining quality and brand consistency.",
     content: [
       { type: "intro", text: "Social media content creation is one of the most time-intensive tasks for freelancers and the businesses that hire them. In 2026, AI tools have transformed what is possible — a skilled creator using the right AI stack can produce a month of social content across multiple platforms in the time it previously took to produce one week's worth. This guide covers the specific tools, workflows, and strategies that are working for social media freelancers in 2026." },
@@ -909,7 +909,7 @@ const posts: Record<string, {
     category: "Productivity",
     date: "June 2, 2026",
     readTime: "12 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "A realistic, step-by-step guide to making $500 per week freelancing with AI tools in 2026. Real numbers, real timelines, no hype.",
     content: [
       { type: "intro", text: "Most guides about making money freelancing are written by people who made most of their money selling courses about making money freelancing. This one is different. I am going to give you a realistic, honest breakdown of how to make $500 per week — $2,000 per month — freelancing with AI tools in 2026. Not someday. Not eventually. Within 60 to 90 days of starting, if you execute the strategy in this guide consistently." },
@@ -950,7 +950,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "June 2, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "The AI tools content writers actually use to save hours every week in 2026. Honest reviews from a working writer — no sponsored content.",
     content: [
       { type: "intro", text: "I have tested more AI tools than I care to count over the past two years. Most of them are either genuinely useful or genuinely useless within 20 minutes of using them for real work. The ones that made it onto this list passed a simple test: did I keep using them after the novelty wore off? The ones that did not make the list failed that test. No sponsored content. No affiliate considerations. Just an honest account of what is actually in my daily toolkit." },
@@ -995,7 +995,7 @@ const posts: Record<string, {
     category: "Productivity",
     date: "June 2, 2026",
     readTime: "12 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "Step-by-step guide to using Claude AI for blog posts that rank on Google. Exact prompts, workflow, and SEO strategy that works in 2026.",
     content: [
       { type: "intro", text: "Most people using Claude to write blog posts are doing it wrong — and getting content that ranks nowhere to show for it. The problem is not Claude. Claude is genuinely one of the best tools available for long-form writing. The problem is the workflow. Asking Claude to write you a blog post on a topic and publishing the output is a recipe for content that Google ignores. This guide covers the exact workflow that produces blog posts which actually rank." },
@@ -1035,7 +1035,7 @@ const posts: Record<string, {
     category: "Comparisons",
     date: "June 2, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "Upwork vs Fiverr vs Contra compared on fees, client quality, and earning potential. Which platform actually pays more in 2026?",
     content: [
       { type: "intro", text: "The platform you choose to freelance on has a bigger impact on your income than most people realize — not just because of the fee structure, but because of the client quality, project size, and earning ceiling each platform creates. I have active experience on all three platforms in 2026. This comparison is based on real projects, real numbers, and real client interactions — not theoretical comparisons of fee percentages." },
@@ -1068,7 +1068,7 @@ const posts: Record<string, {
     category: "AI Reviews",
     date: "June 2, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     metaDesc: "I replaced $500 per month in freelance tool subscriptions with AI tools. Here is exactly what I switched, what I saved, and what actually works better.",
     content: [
       { type: "intro", text: "Eighteen months ago, I was paying $487 per month in SaaS subscriptions to run my freelance writing business. Project management, keyword research, content optimization, grammar checking, research tools, invoicing, and email marketing — all separate paid tools, all adding up to a number that made no sense for a solo freelancer. Over the past year and a half, I systematically replaced most of them with AI tools. I saved $340 per month in the process and — honestly — my workflow improved. Here is exactly what I replaced, what I kept, and what the real-world experience of each switch looked like." },
@@ -1115,9 +1115,9 @@ export default function BlogPost() {
   if (!post) return (
     <main style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", background: "#F5F0E8" }}>
       <div style={{ textAlign: "center", fontFamily: "'Syne', sans-serif", color: "#8b7fa8" }}>
-        <h1 style={{ fontSize: "2rem", color: "#5F8B6E", marginBottom: "1rem" }}>404</h1>
+        <h1 style={{ fontSize: "2rem", color: "#5FC888", marginBottom: "1rem" }}>404</h1>
         <p>Post not found.</p>
-        <a href="/" style={{ color: "#5F8B6E", marginTop: "1rem", display: "inline-block" }}>← Back Home</a>
+        <a href="/" style={{ color: "#5FC888", marginTop: "1rem", display: "inline-block" }}>← Back Home</a>
       </div>
     </main>
   );
@@ -1149,11 +1149,11 @@ export default function BlogPost() {
         display: "flex", justifyContent: "space-between", alignItems: "center",
         padding: "1.2rem 3rem", borderBottom: "1px solid rgba(95,139,110,0.25)",
         backdropFilter: "blur(20px)", position: "sticky", top: 0, zIndex: 100,
-        background: "rgba(245,240,232,0.9)",
+        background: "rgba(11,30,20,0.9)",
       }}>
         <a href="/" style={{
           fontFamily: "'Syne', sans-serif", fontSize: "1.2rem",
-          fontWeight: 800, color: "#5F8B6E", textDecoration: "none",
+          fontWeight: 800, color: "#5FC888", textDecoration: "none",
           textShadow: "0 0 20px rgba(95,139,110,0.25)",
         }}>
           AI<span style={{ color: "#ffffff" }}>FREELANCE</span>
@@ -1177,7 +1177,7 @@ export default function BlogPost() {
           display: "inline-block", padding: "3px 12px",
           border: `1px solid ${post.color}44`, borderRadius: "2px",
           marginBottom: "1.5rem", fontSize: "0.7rem", letterSpacing: "1px",
-          color: "#5F8B6E", textTransform: "uppercase",
+          color: "#5FC888", textTransform: "uppercase",
           fontFamily: "'Syne', sans-serif",
         }}>{post.category}</div>
 
@@ -1185,7 +1185,7 @@ export default function BlogPost() {
           fontFamily: "'Syne', sans-serif",
           fontSize: "clamp(1.6rem, 3.5vw, 2.2rem)",
           fontWeight: 900, lineHeight: 1.3,
-marginBottom: "1rem", color: "#5F8B6E",
+marginBottom: "1rem", color: "#5FC888",
 letterSpacing: "-0.5px",
 textShadow: "0 0 20px rgba(95,139,110,0.3), 0 0 40px rgba(95,139,110,0.15), 0 0 60px rgba(95,139,110,0.08)",
         }}>{post.title}</h1>
@@ -1194,16 +1194,16 @@ textShadow: "0 0 20px rgba(95,139,110,0.3), 0 0 40px rgba(95,139,110,0.15), 0 0 
           display: "flex", gap: "1.5rem", marginBottom: "3rem",
           paddingBottom: "1.5rem", borderBottom: "1px solid rgba(95,139,110,0.1)",
         }}>
-          <span style={{ fontSize: "0.8rem", color: "#5a4f6e" }}>{post.date}</span>
+          <span style={{ fontSize: "0.8rem", color: "#4A7B60" }}>{post.date}</span>
           <span style={{ fontSize: "0.8rem", color: post.color }}>{post.readTime}</span>
         </div>
 
         <div>
           {post.content.map((block, i) => {
             if (block.type === "link-p") return (
-  <p key={i} style={{ color: "#3D4A3E", lineHeight: 1.9, fontSize: "1rem", marginBottom: "1rem" }}>
+  <p key={i} style={{ color: "#A8D8BC", lineHeight: 1.9, fontSize: "1rem", marginBottom: "1rem" }}>
     {(block as any).text}{" "}
-    <a href={(block as any).href} style={{ color: "#5F8B6E", textDecoration: "underline" }}>
+    <a href={(block as any).href} style={{ color: "#5FC888", textDecoration: "underline" }}>
       {(block as any).linkText}
     </a>
   </p>
@@ -1211,7 +1211,7 @@ textShadow: "0 0 20px rgba(95,139,110,0.3), 0 0 40px rgba(95,139,110,0.15), 0 0 
             if (block.type === "h2") return (
               <h2 key={i} style={{
                 fontFamily: "'Syne', sans-serif", fontSize: "1.2rem",
-fontWeight: 900, color: "#5F8B6E",
+fontWeight: 900, color: "#5FC888",
 margin: "2.5rem 0 0.75rem",
 letterSpacing: "-0.3px",
 textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
@@ -1222,7 +1222,7 @@ textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
                 background: `${post.color}0d`,
                 border: `1px solid ${post.color}33`,
                 borderRadius: "4px", padding: "10px 16px",
-                fontSize: "0.85rem", color: "#5F8B6E",
+                fontSize: "0.85rem", color: "#5FC888",
                 marginTop: "0.75rem", marginBottom: "1rem",
                 fontFamily: "'Syne', sans-serif",
                 fontWeight: 700,
@@ -1230,8 +1230,8 @@ textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
             );
             return (
               <p key={i} style={{
-                color: "#3D4A3E", lineHeight: 1.9,
-                fontSize: "1rem", marginBottom: "1rem",
+                lineHeight: 1.9,
+fontSize: "1rem", marginBottom: "1rem", color: "#A8D8BC",
               }}>{block.text}</p>
             );
           })}
@@ -1250,14 +1250,14 @@ textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
       fontFamily: "'Syne', sans-serif",
       fontSize: "0.8rem",
       letterSpacing: "2px",
-      color: "#5F8B6E",
+      color: "#5FC888",
       textTransform: "uppercase",
       marginBottom: "1rem",
     }}>Related Articles</h3>
     <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
       {internalLinks[slug].map((link, i) => (
         <a key={i} href={`/blog/${link.slug}`} style={{
-          color: "#5F8B6E",
+          color: "#5FC888",
           textDecoration: "none",
           fontSize: "0.9rem",
           fontFamily: "'DM Sans', sans-serif",
@@ -1285,7 +1285,7 @@ textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
     fontFamily: "'Syne', sans-serif",
     fontSize: "0.8rem",
     letterSpacing: "3px",
-    color: "#5F8B6E",
+    color: "#5FC888",
     textTransform: "uppercase",
     marginBottom: "1.5rem",
   }}>Continue Reading</h3>
@@ -1303,8 +1303,8 @@ textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
           className="related-card"
         >
           <div style={{
-            background: "rgba(255,255,255,0.5)",
-            border: "1px solid rgba(95,139,110,0.15)",
+            background: "rgba(14,32,24,0.85)",
+            border: "1px solid rgba(95,200,136,0.15)",
             borderRadius: "10px",
             padding: "1.25rem",
             backdropFilter: "blur(10px)",
@@ -1329,7 +1329,7 @@ textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
             <div style={{
               fontSize: "0.65rem",
               letterSpacing: "1px",
-              color: "#5F8B6E",
+              color: "#5FC888",
               textTransform: "uppercase",
               fontFamily: "'Syne', sans-serif",
               marginBottom: "0.5rem",
@@ -1339,7 +1339,7 @@ textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
               fontFamily: "'Syne', sans-serif",
               fontSize: "0.88rem",
               fontWeight: 800,
-              color: "#2C4A35",
+              color: "#E8F5EE",
               lineHeight: 1.4,
               marginBottom: "0.75rem",
               textShadow: "0 0 12px rgba(95,139,110,0.2)",
@@ -1347,7 +1347,7 @@ textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
 
             <div style={{
               fontSize: "0.75rem",
-              color: "#5F8B6E",
+              color: "#5FC888",
               fontFamily: "'Syne', sans-serif",
             }}>{related.readTime} →</div>
           </div>
@@ -1360,7 +1360,7 @@ textShadow: "0 0 15px rgba(95,139,110,0.3), 0 0 30px rgba(95,139,110,0.15)",
       <footer style={{
         borderTop: "1px solid rgba(95,139,110,0.1)",
         padding: "2rem 3rem", textAlign: "center",
-        color: "#5a4f6e", fontSize: "0.8rem",
+        color: "#4A7B60", fontSize: "0.8rem",
         fontFamily: "'Syne', sans-serif", letterSpacing: "1px",
       }}>
         AI<span style={{ color: "#ffffff" }}>FREELANCE</span> © 2026 — Built for Freelancers

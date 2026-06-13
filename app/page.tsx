@@ -10,7 +10,7 @@ const posts = [
     category: "AI Reviews",
     date: "Apr 28, 2026",
     readTime: "8 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -21,7 +21,7 @@ const posts = [
     category: "Comparisons",
     date: "Apr 25, 2026",
     readTime: "12 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -32,7 +32,7 @@ const posts = [
     category: "Productivity",
     date: "Apr 20, 2026",
     readTime: "6 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -43,7 +43,7 @@ const posts = [
     category: "AI Reviews",
     date: "Apr 30, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -54,7 +54,7 @@ const posts = [
     category: "Productivity",
     date: "Apr 29, 2026",
     readTime: "8 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -65,7 +65,7 @@ const posts = [
     category: "Productivity",
     date: "May 3, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -76,7 +76,7 @@ const posts = [
     category: "Productivity",
     date: "May 12, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -87,7 +87,7 @@ const posts = [
     category: "AI Reviews",
     date: "May 13, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -98,7 +98,7 @@ const posts = [
     category: "Productivity",
     date: "May 14, 2026",
     readTime: "12 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -109,7 +109,7 @@ const posts = [
     category: "AI Reviews",
     date: "May 14, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -120,7 +120,7 @@ const posts = [
     category: "AI Reviews",
     date: "May 14, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1542435503-956c469947f6?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -131,7 +131,7 @@ const posts = [
     category: "Productivity",
     date: "May 14, 2026",
     readTime: "9 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -142,7 +142,7 @@ const posts = [
     category: "Comparisons",
     date: "May 14, 2026",
     readTime: "13 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -153,7 +153,7 @@ const posts = [
     category: "Productivity",
     date: "May 15, 2026",
     readTime: "13 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -164,7 +164,7 @@ const posts = [
     category: "AI Reviews",
     date: "May 15, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -175,7 +175,7 @@ const posts = [
     category: "Productivity",
     date: "May 15, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -186,7 +186,7 @@ const posts = [
     category: "Productivity",
     date: "May 15, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -197,7 +197,7 @@ const posts = [
     category: "AI Reviews",
     date: "May 15, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -208,7 +208,7 @@ const posts = [
     category: "Productivity",
     date: "June 2, 2026",
     readTime: "12 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -219,7 +219,7 @@ const posts = [
     category: "AI Reviews",
     date: "June 2, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -230,7 +230,7 @@ const posts = [
     category: "Productivity",
     date: "June 2, 2026",
     readTime: "12 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1542435503-956c469947f6?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -241,7 +241,7 @@ const posts = [
     category: "Comparisons",
     date: "June 2, 2026",
     readTime: "11 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&q=80&auto=format&fit=crop",
   },
   {
@@ -252,7 +252,7 @@ const posts = [
     category: "AI Reviews",
     date: "June 2, 2026",
     readTime: "10 min read",
-    color: "#5F8B6E",
+    color: "#5FC888",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80&auto=format&fit=crop",
   },
 ];
@@ -280,81 +280,40 @@ const [menuOpen, setMenuOpen] = useState(false);
     <main style={{ minHeight: "100vh", position: "relative", zIndex: 1 }}>
 
       {/* Navbar */}
-      <nav style={{
+<nav style={{
   display: "flex", justifyContent: "space-between", alignItems: "center",
-  padding: "1.2rem 1rem", borderBottom: "1px solid rgba(95,139,110,0.15)",
+  padding: "1.2rem 1.5rem", borderBottom: "1px solid rgba(95,200,136,0.15)",
   backdropFilter: "blur(20px)", position: "sticky", top: 0, zIndex: 100,
-  background: "rgba(8,0,16,0.95)",
+  background: "rgba(11,30,20,0.9)",
   opacity: visible ? 1 : 0, transition: "opacity 0.8s ease",
 }}>
   <a href="/" style={{
     fontFamily: "'Syne', sans-serif", fontSize: "1.2rem",
-    fontWeight: 800, color: "#5F8B6E", textDecoration: "none",
+    fontWeight: 800, color: "#5FC888", textDecoration: "none",
+    textShadow: "0 0 20px rgba(95,200,136,0.4)",
   }}>
     AI<span style={{ color: "#ffffff" }}>FREELANCE</span>
   </a>
 
-  {/* Desktop Nav */}
-  <div style={{ display: "flex", gap: "2rem" }} className="nav-links">
+  <div style={{ display: "flex", gap: "2rem", alignItems: "center" }}>
     {[
       { label: "Home", href: "/" },
-      { label: "Reviews", href: "/#latest" },
-      { label: "Comparisons", href: "/#latest" },
-      { label: "Productivity", href: "/#latest" },
+      { label: "Reviews", href: "/" },
+{ label: "Comparisons", href: "/" },
+{ label: "Productivity", href: "/" },
       { label: "About", href: "/about" },
     ].map((item) => (
       <a key={item.label} href={item.href} style={{
-        color: "#8b7fa8", textDecoration: "none", fontSize: "0.85rem",
+        color: "#7AB899", textDecoration: "none", fontSize: "0.85rem",
         fontFamily: "'Syne', sans-serif", fontWeight: 500,
         letterSpacing: "1px", textTransform: "uppercase",
         transition: "color 0.2s",
       }}
-        onMouseEnter={e => (e.target as HTMLElement).style.color = "#5F8B6E"}
-        onMouseLeave={e => (e.target as HTMLElement).style.color = "#8b7fa8"}
+        onMouseEnter={e => (e.target as HTMLElement).style.color = "#5FC888"}
+        onMouseLeave={e => (e.target as HTMLElement).style.color = "#7AB899"}
       >{item.label}</a>
     ))}
   </div>
-
-  {/* Hamburger Button */}
-  <button
-    onClick={() => setMenuOpen(!menuOpen)}
-    style={{
-      background: "transparent",
-      border: "1px solid #5F8B6E",
-      color: "#5F8B6E",
-      padding: "6px 12px",
-      borderRadius: "4px",
-      fontSize: "1.2rem",
-      cursor: "pointer",
-    }}
-    className="hamburger-btn"
-  >☰</button>
-
-  {/* Mobile Menu */}
-  {menuOpen && (
-    <div style={{
-      position: "absolute", top: "100%", left: 0, right: 0,
-      background: "rgba(245,240,232,0.98)",
-      padding: "1rem 1.5rem",
-      display: "flex", flexDirection: "column", gap: "1rem",
-      borderBottom: "1px solid rgba(95,139,110,0.2)",
-      zIndex: 200,
-    }}>
-      {[
-        { label: "Home", href: "/" },
-        { label: "Reviews", href: "/#latest" },
-        { label: "Comparisons", href: "/#latest" },
-        { label: "Productivity", href: "/#latest" },
-        { label: "About", href: "/about" },
-      ].map(item => (
-        <a key={item.label} href={item.href} style={{
-          color: "#5F8B6E", textDecoration: "none",
-          fontSize: "1rem", fontFamily: "'Syne', sans-serif",
-          letterSpacing: "1px", textTransform: "uppercase",
-        }}>{item.label}</a>
-      ))}
-    </div>
-  )}
 </nav>
 
       {/* Hero */}
@@ -365,12 +324,12 @@ const [menuOpen, setMenuOpen] = useState(false);
       }}>
         <div style={{
           display: "inline-flex", alignItems: "center", gap: 8,
-          padding: "4px 16px", border: "1px solid rgba(95,139,110,0.4)",
+          padding: "4px 16px", border: "1px solid rgba(95,200,136,0.4)",
           borderRadius: "20px", marginBottom: "1.5rem",
           fontSize: "0.75rem", letterSpacing: "2px",
-          color: "#5F8B6E", textTransform: "uppercase",
+          color: "#5FC888", textTransform: "uppercase",
           fontFamily: "'Syne', sans-serif",
-          background: "rgba(95,139,110,0.05)",
+          background: "rgba(95,200,136,0.05)",
         }}>
           <span style={{
             display: "inline-block", width: 8, height: 8,
@@ -387,10 +346,10 @@ const [menuOpen, setMenuOpen] = useState(false);
   fontWeight: 800, lineHeight: 1.15, marginBottom: "1.5rem",
   letterSpacing: "-0.5px",
 }}>
-  <span style={{ color: "#2C4A35" }}>Master </span>
+  <span style={{ color: "#E8F5EE" }}>Master </span>
   <span style={{
-    color: "#5F8B6E",
-    borderRight: showCursor ? "3px solid #5F8B6E" : "3px solid transparent",
+    color: "#5FC888",
+    borderRight: showCursor ? "3px solid #5FC888" : "3px solid transparent",
     paddingRight: "4px",
   }}>
     {typed}
@@ -398,7 +357,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 </h1>
 
         <p style={{
-          fontSize: "1.1rem", color: "#3D4A3E", maxWidth: "580px",
+          fontSize: "1.1rem", color: "#7AB899", maxWidth: "580px",
           marginBottom: "2.5rem", lineHeight: 1.8, fontWeight: 400,
         }}>
           Honest AI tool reviews, productivity hacks & income strategies —
@@ -407,22 +366,22 @@ const [menuOpen, setMenuOpen] = useState(false);
 
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
           {[
-            { label: "EXPLORE BLOG", color: "#FFFFFF", border: "#5F8B6E", bg: "#5F8B6E" },
-{ label: "LATEST POSTS", color: "#FFFFFF", border: "#5F8B6E", bg: "#5F8B6E" },
+            { label: "EXPLORE BLOG", color: "#5FC888", border: "#5FC888", bg: "rgba(95,200,136,0.1)" },
+{ label: "LATEST POSTS", color: "#7AB899", border: "rgba(95,200,136,0.3)", bg: "rgba(95,200,136,0.05)" },
           ].map(btn => (
             <button key={btn.label} style={{
-              padding: "12px 28px", background: "#5F8B6E",
-              border: `1px solid #5F8B6E`, color: "#FFFFFF",
+              padding: "12px 28px", background: "#5FC888",
+              border: `1px solid #5FC888`, color: "#FFFFFF",
               fontFamily: "'Syne', sans-serif", fontSize: "0.8rem",
               letterSpacing: "2px", borderRadius: "4px",
               transition: "background 0.2s, box-shadow 0.2s",
             }}
               onMouseEnter={e => {
   (e.currentTarget as HTMLElement).style.background = "#4A7A5A";
-  (e.currentTarget as HTMLElement).style.boxShadow = `0 4px 15px rgba(95,139,110,0.4)`;
+  (e.currentTarget as HTMLElement).style.boxShadow = `0 4px 15px rgba(95,200,136,0.4)`;
 }}
 onMouseLeave={e => {
-  (e.currentTarget as HTMLElement).style.background = "#5F8B6E";
+  (e.currentTarget as HTMLElement).style.background = "#5FC888";
   (e.currentTarget as HTMLElement).style.boxShadow = "none";
 }}
             >{btn.label}</button>
@@ -432,15 +391,15 @@ onMouseLeave={e => {
         {/* Stats */}
         <div style={{
           display: "flex", gap: "3rem", marginTop: "4rem",
-          paddingTop: "2rem", borderTop: "1px solid rgba(95,139,110,0.15)",
+          paddingTop: "2rem", borderTop: "1px solid rgba(95,200,136,0.15)",
         }}>
           {[["50+", "Tools Reviewed"], ["100%", "Honest Reviews"], ["10K+", "Monthly Readers"]].map(([num, label]) => (
             <div key={label}>
               <div style={{
                 fontFamily: "'Syne', sans-serif", fontSize: "1.8rem",
-                fontWeight: 700, color: "#5F8B6E",
+                fontWeight: 700, color: "#5FC888",
               }}>{num}</div>
-              <div style={{ fontSize: "0.8rem", color: "#8b7fa8", letterSpacing: "1px" }}>{label}</div>
+              <div style={{ fontSize: "0.8rem", color: "#7AB899", letterSpacing: "1px" }}>{label}</div>
             </div>
           ))}
         </div>
@@ -450,7 +409,7 @@ onMouseLeave={e => {
       <section style={{ padding: "2rem 1.5rem 4rem", maxWidth: "1100px", margin: "0 auto" }}>
         <h2 style={{
           fontFamily: "'Syne', sans-serif", fontSize: "1rem",
-          letterSpacing: "3px", color: "#8b7fa8", textTransform: "uppercase",
+          letterSpacing: "3px", color: "#7AB899", textTransform: "uppercase",
           marginBottom: "2rem",
         }}>Latest Posts</h2>
 
@@ -458,13 +417,13 @@ onMouseLeave={e => {
           {posts.map((post, i) => (
             <a key={post.id} href={`/blog/${post.slug}`} style={{ textDecoration: "none" }}>
               <article style={{
-  background: "rgba(255,255,255,0.6)",
-  border: `1px solid rgba(95,139,110,0.15)`,
-  borderRadius: "12px", overflow: "hidden",
-  backdropFilter: "blur(10px)",
-  display: "flex", flexDirection: "column",
-  height: "100%",
-boxShadow: "inset 0 0 30px rgba(95,139,110,0.06)",
+  background: "rgba(14,32,24,0.85)",
+border: `1px solid rgba(95,200,136,0.15)`,
+borderRadius: "12px", overflow: "hidden",
+backdropFilter: "blur(10px)",
+display: "flex", flexDirection: "column",
+height: "100%",
+boxShadow: "inset 0 0 30px rgba(95,200,136,0.06)",
                 opacity: visible ? 1 : 0,
                 transform: visible ? "translateY(0)" : "translateY(20px)",
                 transition: `opacity 0.6s ease ${0.4 + i * 0.15}s, transform 0.6s ease ${0.4 + i * 0.15}s, border-color 0.08s, box-shadow 0.08s`,
@@ -477,7 +436,7 @@ boxShadow: "inset 0 0 30px rgba(95,139,110,0.06)",
                 }}
                 onMouseLeave={e => {
                   const el = e.currentTarget as HTMLElement;
-                  el.style.borderColor = "rgba(95,139,110,0.12)";
+                  el.style.borderColor = "rgba(95,200,136,0.12)";
                   el.style.boxShadow = "none";
                   el.style.transform = "translateY(0)";
                 }}
@@ -513,17 +472,16 @@ boxShadow: "inset 0 0 30px rgba(95,139,110,0.06)",
   fontSize: "0.65rem", letterSpacing: "1px",
   color: "#ffffff", textTransform: "uppercase",
   fontFamily: "'Syne', sans-serif", fontWeight: 600,
-  background: "rgba(95,139,110,0.85)",
+  background: "rgba(95,200,136,0.85)",
 }}>{post.category}</div>
 
 <h3 style={{
   fontFamily: "'Syne', sans-serif", fontSize: "0.95rem",
   fontWeight: 700, marginBottom: "0.75rem", lineHeight: 1.4,
-  color: "#2C4A35",
-                    textShadow: "0 0 12px rgba(95,139,110,0.25), 0 0 25px rgba(95,139,110,0.12)",
+  color: "#E8F5EE",
                   }}>{post.title}</h3>
 
-                  <p style={{ color: "#3D4A3E", fontSize: "0.875rem", marginBottom: "1rem", lineHeight: 1.6 }}>
+                  <p style={{ color: "#7AB899", fontSize: "0.875rem", marginBottom: "1rem", lineHeight: 1.6 }}>
                     {post.excerpt}
                   </p>
 
@@ -540,12 +498,12 @@ boxShadow: "inset 0 0 30px rgba(95,139,110,0.06)",
 
       {/* Footer */}
       <footer style={{
-        borderTop: "1px solid rgba(95,139,110,0.1)",
+        borderTop: "1px solid rgba(95,200,136,0.1)",
         padding: "2rem 3rem", textAlign: "center",
         color: "#5a4f6e", fontSize: "0.8rem",
         fontFamily: "'Syne', sans-serif", letterSpacing: "1px",
       }}>
-        AI<span style={{ color: "#2C4A35" }}>FREELANCE</span> © 2026 — Built for Freelancers
+        AI<span style={{ color: "#E8F5EE" }}>FREELANCE</span> © 2026 — Built for Freelancers
       </footer>
 
     </main>
