@@ -20,6 +20,11 @@ const posts: Record<string, { title: string; metaDesc: string }> = {
   "ai-prompt-engineering-freelance-service-2026": { title: "AI Prompt Engineering as a Freelance Service — How to Get Paid for It in 2026", metaDesc: "How to turn AI prompt engineering into a paid freelance service in 2026. Real clients, real rates, exact skills needed." },
   "how-to-use-notion-ai-freelancers-2026": { title: "How to Use Notion AI for Freelancers in 2026 — Complete Workflow Guide", metaDesc: "Complete guide to using Notion AI for freelancers in 2026. Set up your entire freelance business in Notion." },
   "best-ai-tools-social-media-content-2026": { title: "Best AI Tools for Social Media Content Creation in 2026 — Complete Guide", metaDesc: "The best AI tools for social media content creation in 2026, tested on real accounts." },
+  "how-to-make-500-week-freelancing-ai-beginners": { title: "How to Make $500 a Week Freelancing with AI — Realistic Guide for Beginners 2026", metaDesc: "A realistic, step-by-step guide to making $500 per week freelancing with AI tools in 2026. Real numbers, real timelines, no hype." },
+"best-ai-tools-content-writers-2026": { title: "Best AI Tools for Content Writers Who Hate Wasting Time in 2026", metaDesc: "The AI tools content writers actually use to save hours every week in 2026. Honest reviews from a working writer — no sponsored content." },
+"how-to-use-claude-ai-write-blog-posts-rank-google": { title: "How to Use Claude AI to Write Blog Posts That Actually Rank on Google in 2026", metaDesc: "Step-by-step guide to using Claude AI for blog posts that rank on Google. Exact prompts, workflow, and SEO strategy that works in 2026." },
+"upwork-vs-fiverr-vs-contra-2026-which-pays-more": { title: "Upwork vs Fiverr vs Contra in 2026 — Which Platform Pays Freelancers More?", metaDesc: "Upwork vs Fiverr vs Contra compared on fees, client quality, and earning potential. Which platform actually pays more in 2026?" },
+"ai-tools-replaced-my-paid-freelance-tools-honest-review": { title: "AI Tools That Replaced My $500/Month Freelance Tools — Honest Review 2026", metaDesc: "I replaced $500 per month in freelance tool subscriptions with AI tools. Here is exactly what I switched, what I saved, and what actually works better." },
 };
 
 type Props = {
