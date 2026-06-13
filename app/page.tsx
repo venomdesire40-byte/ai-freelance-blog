@@ -454,14 +454,16 @@ onMouseLeave={e => {
           marginBottom: "2rem",
         }}>Latest Posts</h2>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "1.5rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem", alignItems: "stretch" }}>
           {posts.map((post, i) => (
             <a key={post.id} href={`/blog/${post.slug}`} style={{ textDecoration: "none" }}>
               <article style={{
-               background: "rgba(255,255,255,0.5)",
-               border: `1px solid rgba(95,139,110,0.15)`,
-               borderRadius: "12px", overflow: "hidden",
-               backdropFilter: "blur(10px)",
+  background: "rgba(255,255,255,0.6)",
+  border: `1px solid rgba(95,139,110,0.15)`,
+  borderRadius: "12px", overflow: "hidden",
+  backdropFilter: "blur(10px)",
+  display: "flex", flexDirection: "column",
+  height: "100%",
 boxShadow: "inset 0 0 30px rgba(95,139,110,0.06)",
                 opacity: visible ? 1 : 0,
                 transform: visible ? "translateY(0)" : "translateY(20px)",
@@ -499,25 +501,25 @@ boxShadow: "inset 0 0 30px rgba(95,139,110,0.06)",
                     position: "absolute", inset: 0,
                     background: `linear-gradient(to bottom, transparent 40%, rgba(13,0,24,0.95) 100%)`,
                   }} />
-                  <div style={{
-                    position: "absolute", top: 12, left: 12,
-                    padding: "3px 10px",
-                    border: `1px solid ${post.color}66`,
-                    borderRadius: "20px",
-                    fontSize: "0.65rem", letterSpacing: "1px",
-                    color: post.color, textTransform: "uppercase",
-                    fontFamily: "'Syne', sans-serif",
-                    background: "rgba(0,0,0,0.4)",
-                    backdropFilter: "blur(8px)",
-                  }}>{post.category}</div>
+                  <div style={{ display: "none" }}>{post.category}</div>
                 </div>
 
                 {/* Content */}
-                <div style={{ padding: "1.25rem" }}>
-                  <h3 style={{
-                    fontFamily: "'Syne', sans-serif", fontSize: "0.95rem",
-                    fontWeight: 800, marginBottom: "0.75rem", lineHeight: 1.4,
-                    color: "#2C4A35",
+                <div style={{ padding: "1.25rem", display: "flex", flexDirection: "column", flex: 1 }}>
+                  <div style={{
+  display: "inline-flex", padding: "3px 10px",
+  borderRadius: "20px", marginBottom: "0.75rem",
+  width: "fit-content",
+  fontSize: "0.65rem", letterSpacing: "1px",
+  color: "#ffffff", textTransform: "uppercase",
+  fontFamily: "'Syne', sans-serif", fontWeight: 600,
+  background: "rgba(95,139,110,0.85)",
+}}>{post.category}</div>
+
+<h3 style={{
+  fontFamily: "'Syne', sans-serif", fontSize: "0.95rem",
+  fontWeight: 700, marginBottom: "0.75rem", lineHeight: 1.4,
+  color: "#2C4A35",
                     textShadow: "0 0 12px rgba(95,139,110,0.25), 0 0 25px rgba(95,139,110,0.12)",
                   }}>{post.title}</h3>
 
