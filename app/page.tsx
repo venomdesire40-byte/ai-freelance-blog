@@ -298,9 +298,9 @@ const [menuOpen, setMenuOpen] = useState(false);
   <div style={{ display: "flex", gap: "2rem", alignItems: "center" }}>
     {[
       { label: "Home", href: "/" },
-      { label: "Reviews", href: "/" },
-{ label: "Comparisons", href: "/" },
-{ label: "Productivity", href: "/" },
+      { label: "Reviews", href: "/reviews" },
+{ label: "Comparisons", href: "/comparisons" },
+{ label: "Productivity", href: "/productivity" },
       { label: "About", href: "/about" },
     ].map((item) => (
       <a key={item.label} href={item.href} style={{
@@ -406,7 +406,7 @@ onMouseLeave={e => {
       </section>
 
       {/* Blog Posts */}
-      <section style={{ padding: "2rem 1.5rem 4rem", maxWidth: "1100px", margin: "0 auto" }}>
+      <section id="reviews" style={{ padding: "2rem 1.5rem 4rem", maxWidth: "1100px", margin: "0 auto" }}>
         <h2 style={{
           fontFamily: "'Syne', sans-serif", fontSize: "1rem",
           letterSpacing: "3px", color: "#7AB899", textTransform: "uppercase",
