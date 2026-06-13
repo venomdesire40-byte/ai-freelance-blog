@@ -366,10 +366,11 @@ const [menuOpen, setMenuOpen] = useState(false);
 
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
           {[
-            { label: "EXPLORE BLOG", color: "#5FC888", border: "#5FC888", bg: "rgba(95,200,136,0.1)" },
-{ label: "LATEST POSTS", color: "#7AB899", border: "rgba(95,200,136,0.3)", bg: "rgba(95,200,136,0.05)" },
-          ].map(btn => (
-            <button key={btn.label} style={{
+  { label: "EXPLORE BLOG", color: "#5FC888", border: "#5FC888", bg: "rgba(95,200,136,0.1)", href: "/reviews" },
+  { label: "LATEST POSTS", color: "#7AB899", border: "rgba(95,200,136,0.3)", bg: "rgba(95,200,136,0.05)", href: "#reviews" },
+].map(btn => (
+  <a key={btn.label} href={btn.href} style={{
+    textDecoration: "none",
               padding: "12px 28px", background: "#5FC888",
               border: `1px solid #5FC888`, color: "#FFFFFF",
               fontFamily: "'Syne', sans-serif", fontSize: "0.8rem",
@@ -384,7 +385,7 @@ onMouseLeave={e => {
   (e.currentTarget as HTMLElement).style.background = "#5FC888";
   (e.currentTarget as HTMLElement).style.boxShadow = "none";
 }}
-            >{btn.label}</button>
+            >{btn.label}</a>
           ))}
         </div>
 
